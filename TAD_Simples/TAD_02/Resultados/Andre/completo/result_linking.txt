@@ -1,0 +1,5 @@
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o: na função "_start":
+(.text+0x1b): undefined reference to `main'
+/usr/bin/ld: Resultados/Andre/completo/eleicao.o: na função "ImprimeResultadoEleicao":
+eleicao.c:(.text+0x1312): undefined reference to `CalculaVotosInvalidoG'
+collect2: error: ld returned 1 exit status

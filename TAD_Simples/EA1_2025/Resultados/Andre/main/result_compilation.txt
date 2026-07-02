@@ -1,0 +1,25 @@
+main.c: In function ‘main’:
+main.c:29:21: warning: variable ‘t2’ set but not used [-Wunused-but-set-variable]
+   29 |     bool t1 = true, t2 = true;
+      |                     ^~
+main.c:29:10: warning: variable ‘t1’ set but not used [-Wunused-but-set-variable]
+   29 |     bool t1 = true, t2 = true;
+      |          ^~
+main.c:26:23: warning: unused variable ‘code_j’ [-Wunused-variable]
+   26 |     int code_eqp = 0, code_j = 0;
+      |                       ^~~~~~
+main.c:26:9: warning: unused variable ‘code_eqp’ [-Wunused-variable]
+   26 |     int code_eqp = 0, code_j = 0;
+      |         ^~~~~~~~
+main.c:22:9: warning: unused variable ‘pos_e2’ [-Wunused-variable]
+   22 |     int pos_e2 = tEquipe_encontraIndiceVetorComIdUnico(equipes, qtd_equipes, eqp_2);
+      |         ^~~~~~
+main.c:21:9: warning: unused variable ‘pos_e1’ [-Wunused-variable]
+   21 |     int pos_e1 = tEquipe_encontraIndiceVetorComIdUnico(equipes, qtd_equipes, eqp_1);
+      |         ^~~~~~
+main.c:12:34: warning: unused variable ‘id_j’ [-Wunused-variable]
+   12 |     int gols = 0, id_equipe = 0, id_j = 0, qtd_partidas = 0;
+      |                                  ^~~~
+main.c:12:9: warning: unused variable ‘gols’ [-Wunused-variable]
+   12 |     int gols = 0, id_equipe = 0, id_j = 0, qtd_partidas = 0;
+      |         ^~~~

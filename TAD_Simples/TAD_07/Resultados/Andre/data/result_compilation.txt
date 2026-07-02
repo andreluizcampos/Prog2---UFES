@@ -1,0 +1,7 @@
+data.c: In function ‘CalculaDiferencaDias’:
+data.c:262:23: warning: unused variable ‘total_dias’ [-Wunused-variable]
+  262 |     int i = 0, j = 0, total_dias = 0, dias_parciais1 = 0, dias_parciais2 = 0;
+      |                       ^~~~~~~~~~
+data.c:262:16: warning: unused variable ‘j’ [-Wunused-variable]
+  262 |     int i = 0, j = 0, total_dias = 0, dias_parciais1 = 0, dias_parciais2 = 0;
+      |                ^

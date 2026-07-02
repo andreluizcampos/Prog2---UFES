@@ -1,0 +1,15 @@
+==78317== Memcheck, a memory error detector
+==78317== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==78317== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==78317== Command: Resultados/Andre/tarefaimprime/prog Resultados/Andre/tarefaimprime/Casos/4
+==78317== Parent PID: 78316
+==78317== 
+==78317== 
+==78317== HEAP SUMMARY:
+==78317==     in use at exit: 0 bytes in 0 blocks
+==78317==   total heap usage: 35 allocs, 35 frees, 9,272 bytes allocated
+==78317== 
+==78317== All heap blocks were freed -- no leaks are possible
+==78317== 
+==78317== For lists of detected and suppressed errors, rerun with: -s
+==78317== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

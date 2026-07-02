@@ -1,0 +1,43 @@
+candidato.c: In function ‘ImprimeCandidato’:
+candidato.c:84:40: warning: unknown conversion type character ‘\x0a’ in format [-Wformat=]
+   84 |     printf("%s (%s), %d voto(s), %.2f% \n", candidato.nome, candidato.partido, candidato.votos, percentualVotos);
+      |                                        ^~
+eleicao.c: In function ‘InicializaEleicao’:
+eleicao.c:12:39: warning: unused variable ‘k’ [-Wunused-variable]
+   12 |     int quantidade = 0, i = 0, j = 0, k = 0;
+      |                                       ^
+eleicao.c:12:32: warning: unused variable ‘j’ [-Wunused-variable]
+   12 |     int quantidade = 0, i = 0, j = 0, k = 0;
+      |                                ^
+eleicao.c:12:25: warning: unused variable ‘i’ [-Wunused-variable]
+   12 |     int quantidade = 0, i = 0, j = 0, k = 0;
+      |                         ^
+eleicao.c: In function ‘ImprimeResultadoEleicao’:
+eleicao.c:250:22: warning: implicit declaration of function ‘CalculaVotosInvalidoG’; did you mean ‘CalculaVotosInvalidosG’? [-Wimplicit-function-declaration]
+  250 |     int InvalidosG = CalculaVotosInvalidoG(eleicao);
+      |                      ^~~~~~~~~~~~~~~~~~~~~
+      |                      CalculaVotosInvalidosG
+eleicao.c:277:70: warning: passing argument 2 of ‘CalculaPercentualVotos’ makes integer from pointer without a cast [-Wint-conversion]
+  277 |                 percentualP = CalculaPercentualVotos(vencedor,eleicao.eleitores);
+      |                                                               ~~~~~~~^~~~~~~~~~
+      |                                                                      |
+      |                                                                      tEleitor *
+In file included from eleicao.h:4,
+                 from eleicao.c:1:
+candidato.h:71:56: note: expected ‘int’ but argument is of type ‘tEleitor *’
+   71 | float CalculaPercentualVotos(tCandidato candidato, int totalVotos);
+      |                                                    ~~~~^~~~~~~~~~
+eleicao.c:291:70: warning: passing argument 2 of ‘CalculaPercentualVotos’ makes integer from pointer without a cast [-Wint-conversion]
+  291 |                 percentualG = CalculaPercentualVotos(vencedor,eleicao.eleitores);
+      |                                                               ~~~~~~~^~~~~~~~~~
+      |                                                                      |
+      |                                                                      tEleitor *
+candidato.h:71:56: note: expected ‘int’ but argument is of type ‘tEleitor *’
+   71 | float CalculaPercentualVotos(tCandidato candidato, int totalVotos);
+      |                                                    ~~~~^~~~~~~~~~
+eleicao.c:222:20: warning: variable ‘FlagG’ set but not used [-Wunused-but-set-variable]
+  222 |     int FlagP = 1, FlagG = 1, nulos =0, brancos = 0;
+      |                    ^~~~~
+eleicao.c:222:9: warning: variable ‘FlagP’ set but not used [-Wunused-but-set-variable]
+  222 |     int FlagP = 1, FlagG = 1, nulos =0, brancos = 0;
+      |         ^~~~~

@@ -1,0 +1,3 @@
+/usr/bin/ld: main.o: na função "lerPartida":
+main.c:(.text+0x0): múltiplas definições de "lerPartida"; franquia.o:franquia.c:(.text+0x0): definido primeiro aqui
+collect2: error: ld returned 1 exit status

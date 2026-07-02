@@ -1,0 +1,7 @@
+temperature_conversor.c:41:7: error: redefinition of ‘convert_temperature’
+   41 | float convert_temperature(float temperature, float convert_func(float temperature)){
+      |       ^~~~~~~~~~~~~~~~~~~
+In file included from temperature_conversor.c:1:
+temperature_conversor.h:52:7: note: previous definition of ‘convert_temperature’ with type ‘float(float,  float (*)(float))’
+   52 | float convert_temperature(float temperature, float convert_func(float temperature)){
+      |       ^~~~~~~~~~~~~~~~~~~

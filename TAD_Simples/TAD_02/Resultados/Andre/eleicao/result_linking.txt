@@ -1,0 +1,3 @@
+/usr/bin/ld: Resultados/Andre/eleicao/eleicao.o: na função "ImprimeResultadoEleicao":
+eleicao.c:(.text+0x1312): undefined reference to `CalculaVotosInvalidoG'
+collect2: error: ld returned 1 exit status

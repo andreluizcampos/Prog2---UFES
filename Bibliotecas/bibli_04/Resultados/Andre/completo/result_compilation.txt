@@ -1,0 +1,14 @@
+data.c: In function ‘verificaBissexto’:
+data.c:119:22: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+  119 |     if (ano % 4 == 0 && ano % 100 != 0 || ano % 400 == 0)
+      |         ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+main.c: In function ‘main’:
+main.c:7:49: warning: unused variable ‘a2’ [-Wunused-variable]
+    7 |     int d1 = 0, d2 = 0, m1 = 0, m2 = 0, a1 = 0, a2 = 0;
+      |                                                 ^~
+main.c:7:33: warning: unused variable ‘m2’ [-Wunused-variable]
+    7 |     int d1 = 0, d2 = 0, m1 = 0, m2 = 0, a1 = 0, a2 = 0;
+      |                                 ^~
+main.c:7:17: warning: unused variable ‘d2’ [-Wunused-variable]
+    7 |     int d1 = 0, d2 = 0, m1 = 0, m2 = 0, a1 = 0, a2 = 0;
+      |                 ^~

@@ -1,0 +1,21 @@
+=== BATALHA NAVAL: Mateus vs Laura ===
+
+Navios posicionados. Iniciando jogo...
+
+Rodada 1 - Mateus atira em (5, 4): Agua! Passa a vez.
+Rodada 2 - Laura atira em (3, 0): Acerto!
+Rodada 3 - Laura atira em (3, 1): Acerto!
+Rodada 4 - Laura atira em (3, 2): Afundou um navio!
+Rodada 5 - Laura atira em (5, 5): Agua! Passa a vez.
+Rodada 6 - Mateus atira em (0, 0): Acerto!
+Rodada 7 - Mateus atira em (0, 1): Acerto!
+Rodada 8 - Mateus atira em (0, 2): Afundou um navio!
+Rodada 9 - Mateus atira em (0, 4): Acerto!
+Rodada 10 - Mateus atira em (1, 4): Afundou um navio!
+Rodada 11 - Mateus atira em (2, 0): Afundou um navio!
+Rodada 12 - Mateus atira em (4, 3): Afundou um navio!
+Rodada 13 - Mateus atira em (5, 5): VITORIA!
+
+*** PARTIDA ENCERRADA ***
+Vencedor: Mateus
+

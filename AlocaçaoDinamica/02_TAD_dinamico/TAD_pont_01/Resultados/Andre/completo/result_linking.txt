@@ -1,0 +1,6 @@
+/usr/bin/ld: Resultados/Andre/completo/jogador.o: na função "JogaJogador":
+jogador.c:(.text+0xa8): undefined reference to `LeJogada'
+/usr/bin/ld: jogador.c:(.text+0xb4): undefined reference to `FoiJogadaBemSucedida'
+/usr/bin/ld: jogador.c:(.text+0xe2): undefined reference to `ObtemJogadaX'
+/usr/bin/ld: jogador.c:(.text+0xf1): undefined reference to `ObtemJogadaY'
+collect2: error: ld returned 1 exit status

@@ -1,0 +1,15 @@
+==32040== Memcheck, a memory error detector
+==32040== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==32040== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==32040== Command: Resultados/Andre/numcomplexo/prog Resultados/Andre/numcomplexo/Casos/4
+==32040== Parent PID: 32039
+==32040== 
+==32040== 
+==32040== HEAP SUMMARY:
+==32040==     in use at exit: 0 bytes in 0 blocks
+==32040==   total heap usage: 30 allocs, 30 frees, 8,548 bytes allocated
+==32040== 
+==32040== All heap blocks were freed -- no leaks are possible
+==32040== 
+==32040== For lists of detected and suppressed errors, rerun with: -s
+==32040== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

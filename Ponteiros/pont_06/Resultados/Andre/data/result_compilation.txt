@@ -1,0 +1,4 @@
+data.c: In function ‘LeData’:
+data.c:32:22: warning: unused variable ‘qtd_dias’ [-Wunused-variable]
+   32 |     int qtd_mes = 0, qtd_dias = 0;
+      |                      ^~~~~~~~

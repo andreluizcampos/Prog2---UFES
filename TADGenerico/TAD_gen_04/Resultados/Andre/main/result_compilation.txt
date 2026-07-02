@@ -1,0 +1,18 @@
+main.c: In function ‘main’:
+main.c:33:28: warning: passing argument 1 of ‘VectorPushBack’ from incompatible pointer type [-Wincompatible-pointer-types]
+   33 |             VectorPushBack(b, a);
+      |                            ^
+      |                            |
+      |                            tBanco * {aka struct Banco *}
+In file included from conta.h:3,
+                 from agencia.h:3,
+                 from main.c:2:
+vector.h:21:29: note: expected ‘Vector *’ but argument is of type ‘tBanco *’ {aka ‘struct Banco *’}
+   21 | void VectorPushBack(Vector *v, DataType val);
+      |                     ~~~~~~~~^
+main.c:32:13: warning: ‘a’ may be used uninitialized [-Wmaybe-uninitialized]
+   32 |             LeAgencia(a);
+      |             ^~~~~~~~~~~~
+main.c:31:23: note: ‘a’ was declared here
+   31 |             tAgencia *a;
+      |                       ^

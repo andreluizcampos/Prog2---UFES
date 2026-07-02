@@ -1,0 +1,6 @@
+MUSICA All_Of_The_Lights Kanye_West 2 Rihanna Kid_Cudi My_Beautiful_Dark_Twisted_Fantasy Hip-Hop
+MUSICA good_4_u Olivia_Rodrigo 0 SOUR Pop
+MUSICA Family_Ties Baby_Keem 1 Kendrick_Lamar The_Melodic_Blue Rap
+MUSICA Espresso Sabrina_Carpenter 0 Short_n_Sweet Pop
+MUSICA Get_You Daniel_Caesar 1 Kali_Uchis Freudian R&B
+IMPRIMIR

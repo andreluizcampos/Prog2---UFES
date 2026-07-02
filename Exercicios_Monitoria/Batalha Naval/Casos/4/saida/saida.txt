@@ -1,0 +1,10 @@
+=== BATALHA NAVAL: Pedro vs Ana ===
+
+Navios posicionados. Iniciando jogo...
+
+Rodada 1 - Pedro atira em (1, 0): Acerto!
+Aviso: jogador 1 nao eh o turno atual (0)
+Rodada 2 - Pedro atira em (1, 1): Acerto!
+Aviso: jogador 1 nao eh o turno atual (0)
+Rodada 3 - Pedro atira em (1, 2): Afundou um navio!
+Aviso: jogador 1 nao eh o turno atual (0)

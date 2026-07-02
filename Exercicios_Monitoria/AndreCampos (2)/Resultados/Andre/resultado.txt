@@ -1,0 +1,29 @@
+Arquivos Esperados Corretos: 11 de 11
+Pastas Compiladas Corretamente: 6 de 6 
+Pastas Linkadas Corretamente: 6 de 6
+Teste main
+  - Resultados corretos: 10 de 10
+  - Valgrinds corretos: 10 de 10
+Nota de Andre para o teste main: 1.00
+Teste list
+  - Resultados corretos: 10 de 10
+  - Valgrinds corretos: 10 de 10
+Nota de Andre para o teste list: 3.00
+Teste media
+  - Resultados corretos: 10 de 10
+  - Valgrinds corretos: 10 de 10
+Nota de Andre para o teste media: 3.00
+Teste movie
+  - Resultados corretos: 10 de 10
+  - Valgrinds corretos: 10 de 10
+Nota de Andre para o teste movie: 1.00
+Teste music
+  - Resultados corretos: 10 de 10
+  - Valgrinds corretos: 10 de 10
+Nota de Andre para o teste music: 1.00
+Teste game
+  - Resultados corretos: 10 de 10
+  - Valgrinds corretos: 10 de 10
+Nota de Andre para o teste game: 1.00
+Nota de Andre: 0+(1.00)+(1.00)+(1.00)+(3.00)+(1.00)+(3.00)
+Nota de Andre: 10.00

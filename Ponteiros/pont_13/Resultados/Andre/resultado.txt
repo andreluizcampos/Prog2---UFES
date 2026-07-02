@@ -1,0 +1,34 @@
+Arquivos Esperados Corretos: 3 de 3
+Pastas Compiladas Corretamente: 3 de 3 
+Pastas Linkadas Corretamente: 3 de 3
+Teste main
+  - Resultados corretos: 2 de 2
+  - Valgrinds corretos: 1 de 2
+Nota de Andre para o teste main: 2.49
+Teste completo
+  - Resultados corretos: 2 de 2
+  - Valgrinds corretos: 2 de 2
+Nota de Andre para o teste completo: 3.34
+Teste rolagem
+  - Resultados corretos: 2 de 2
+  - Valgrinds corretos: 2 de 2
+Nota de Andre para o teste rolagem: 3.33
+Nota de Andre: 0+(2.49)+(3.34)+(3.33)
+Nota de Andre: 9.16
+Arquivos Esperados Corretos: 3 de 3
+Pastas Compiladas Corretamente: 3 de 3 
+Pastas Linkadas Corretamente: 3 de 3
+Teste main
+  - Resultados corretos: 2 de 2
+  - Valgrinds corretos: 2 de 2
+Nota de Andre para o teste main: 3.33
+Teste completo
+  - Resultados corretos: 2 de 2
+  - Valgrinds corretos: 2 de 2
+Nota de Andre para o teste completo: 3.34
+Teste rolagem
+  - Resultados corretos: 2 de 2
+  - Valgrinds corretos: 2 de 2
+Nota de Andre para o teste rolagem: 3.33
+Nota de Andre: 0+(3.33)+(3.34)+(3.33)
+Nota de Andre: 10.00

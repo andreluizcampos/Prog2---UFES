@@ -1,0 +1,26 @@
+matrix_utils.c: In function ‘matrix_read’:
+matrix_utils.c:11:13: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
+   11 |             scanf("%d", &matrix[i][j]);
+      |             ^~~~~
+matrix_utils.c:2:1: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+    1 | #include "matrix_utils.h"
+  +++ |+#include <stdio.h>
+    2 | void matrix_read(int rows, int cols, int matrix[rows][cols])
+matrix_utils.c:11:13: warning: incompatible implicit declaration of built-in function ‘scanf’ [-Wbuiltin-declaration-mismatch]
+   11 |             scanf("%d", &matrix[i][j]);
+      |             ^~~~~
+matrix_utils.c:11:13: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+matrix_utils.c: In function ‘matrix_print’:
+matrix_utils.c:21:9: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+   21 |         printf("|");
+      |         ^~~~~~
+matrix_utils.c:21:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+matrix_utils.c:21:9: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+matrix_utils.c:21:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+matrix_utils.c: In function ‘matrix_multiply’:
+matrix_utils.c:104:9: warning: unused variable ‘h’ [-Wunused-variable]
+  104 |     int h = 0;
+      |         ^
+matrix_utils.c:103:9: warning: unused variable ‘k’ [-Wunused-variable]
+  103 |     int k = 0;
+      |         ^

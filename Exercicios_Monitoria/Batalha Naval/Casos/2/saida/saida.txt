@@ -1,0 +1,14 @@
+=== BATALHA NAVAL: Carlos vs Diana ===
+
+Navios posicionados. Iniciando jogo...
+
+Rodada 1 - Carlos atira em (4, 4): Agua! Passa a vez.
+Rodada 2 - Diana atira em (1, 0): Agua! Passa a vez.
+Rodada 3 - Carlos atira em (4, 3): Agua! Passa a vez.
+Rodada 4 - Diana atira em (1, 1): Agua! Passa a vez.
+Rodada 5 - Carlos atira em (4, 2): Agua! Passa a vez.
+Rodada 6 - Diana atira em (1, 2): Agua! Passa a vez.
+Rodada 7 - Carlos atira em (4, 1): Agua! Passa a vez.
+Rodada 8 - Diana atira em (1, 3): Agua! Passa a vez.
+Rodada 9 - Carlos atira em (4, 0): Agua! Passa a vez.
+Rodada 10 - Diana atira em (0, 4): Afundou um navio!

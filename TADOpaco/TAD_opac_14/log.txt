@@ -1,0 +1,120 @@
+- Arquivo de configuração encontrado!
+ - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+
+#######################################
+ALUNO: Andre
+#######################################
+
+CRIANDO O DIRETÓRIO DE RESULTADO PARA Andre:
+ - Diretório Resultados/Andre criado com sucesso!
+ - Diretório Resultados/Andre/nba criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/Andre/franquia.c' encontrado!
+ - Arquivo esperado 'Respostas/Andre/franquia.h' encontrado!
+ - Arquivo esperado 'Respostas/Andre/main.c' não encontrado!
+ - Arquivo esperado 'Respostas/Andre/nba.c' encontrado!
+ - Arquivo esperado 'Respostas/Andre/nba.h' encontrado!
+ - Arquivo esperado 'Respostas/Andre/partida.c' encontrado!
+ - Arquivo esperado 'Respostas/Andre/partida.h' encontrado!
+ - Arquivos esperados enviados: Faltando!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta nba:
+ - Copiando os Casos de teste para a pasta Resultados/Andre/nba
+ - Copiando os Includes/franquia.h Includes/nba.h Includes/partida.h do professor para a pasta Resultados/Andre/nba
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Andre/nba
+ - Removendo o nba.o do professor da pasta Resultados/Andre/nba
+ - Copiando o Respostas/Andre/nba.c do aluno para a pasta Resultados/Andre/nba
+ - Copiando Arquivos Extras do Aluno:
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Compilação dos arquivos do aluno na pasta nba ok!
+ - Arquivo de output gerado: Resultados/Andre/nba/result_compilation.txt
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta nba:
+ - Gerando o binário prog linkando com o(s) arquivo(s) nba/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Andre/nba/result_linking.txt
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta nba / Caso 1:
+ - Arquivo de output gerado: Resultados/Andre/nba/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 37, frees: 37, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta nba / Caso 10:
+ - Arquivo de output gerado: Resultados/Andre/nba/Casos/10/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 69, frees: 69, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta nba / Caso 2:
+ - Arquivo de output gerado: Resultados/Andre/nba/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 21, frees: 21, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta nba / Caso 3:
+ - Arquivo de output gerado: Resultados/Andre/nba/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 5, frees: 5, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta nba / Caso 4:
+ - Arquivo de output gerado: Resultados/Andre/nba/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 41, frees: 41, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta nba / Caso 5:
+ - Arquivo de output gerado: Resultados/Andre/nba/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 137, frees: 137, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta nba / Caso 6:
+ - Arquivo de output gerado: Resultados/Andre/nba/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 41, frees: 41, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta nba / Caso 7:
+ - Arquivo de output gerado: Resultados/Andre/nba/Casos/7/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 9, frees: 9, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta nba / Caso 8:
+ - Arquivo de output gerado: Resultados/Andre/nba/Casos/8/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 49, frees: 49, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta nba / Caso 9:
+ - Arquivo de output gerado: Resultados/Andre/nba/Casos/9/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 45, frees: 45, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta nba (máximo 2.00) - 100.00 de 100 - 100.00% de 2.00: 2.00.
+ -----
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Aluno: Andre
+ - Arquivos Esperados Corretos: 6 de 7
+ - Pastas Compiladas Corretamente: 1 de 1 
+ - Pastas Linkadas Corretamente: 1 de 1
+ - Teste nba
+ - Resultados corretos: 10 de 10
+ - Valgrinds corretos: 10 de 10
+ - Nota de Andre para o teste nba: 2.00
+ - Nota de Andre: 0+(2.00)
+ - Nota de Andre: 2.00
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+
+

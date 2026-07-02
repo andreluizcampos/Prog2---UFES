@@ -1,0 +1,21 @@
+Arquivos Esperados Corretos: 5 de 5
+Pastas Compiladas Corretamente: 4 de 4 
+Pastas Linkadas Corretamente: 4 de 4
+Teste main
+  - Resultados corretos: 4 de 4
+  - Valgrinds corretos: 4 de 4
+Nota de Andre para o teste main: 1.00
+Teste musica
+  - Resultados corretos: 4 de 4
+  - Valgrinds corretos: 4 de 4
+Nota de Andre para o teste musica: 2.00
+Teste playlist
+  - Resultados corretos: 4 de 4
+  - Valgrinds corretos: 4 de 4
+Nota de Andre para o teste playlist: 5.50
+Teste completo
+  - Resultados corretos: 4 de 4
+  - Valgrinds corretos: 4 de 4
+Nota de Andre para o teste completo: 1.50
+Nota de Andre: 0+(5.50)+(2.00)+(1.00)+(1.50)
+Nota de Andre: 10.00

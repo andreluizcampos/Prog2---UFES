@@ -1,0 +1,4 @@
+evento.c: In function ‘trocarIndicesEventos’:
+evento.c:103:9: warning: unused variable ‘swap’ [-Wunused-variable]
+  103 |     int swap = 0;
+      |         ^~~~

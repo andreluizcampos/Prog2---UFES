@@ -1,0 +1,13 @@
+tabuleiro.c:5: warning: "PECA_1" redefined
+    5 | #define PECA_1 'X'
+      | 
+In file included from tabuleiro.c:3:
+tabuleiro.h:6: note: this is the location of the previous definition
+    6 | #define PECA_1 1
+      | 
+tabuleiro.c:6: warning: "PECA_2" redefined
+    6 | #define PECA_2 '0'
+      | 
+tabuleiro.h:7: note: this is the location of the previous definition
+    7 | #define PECA_2 2
+      | 

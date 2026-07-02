@@ -1,0 +1,4 @@
+jogador.c: In function ‘VenceuJogador’:
+jogador.c:100:10: warning: variable ‘symbol’ set but not used [-Wunused-but-set-variable]
+  100 |     char symbol;
+      |          ^~~~~~

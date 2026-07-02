@@ -1,0 +1,60 @@
+jogada.c:6:10: error: redefinition of ‘CriaJogada’
+    6 | tJogada *CriaJogada()
+      |          ^~~~~~~~~~
+In file included from jogada.c:3:
+jogada.h:17:10: note: previous definition of ‘CriaJogada’ with type ‘tJogada *()’
+   17 | tJogada* CriaJogada(){
+      |          ^~~~~~~~~~
+jogador.c: In function ‘VenceuJogador’:
+jogador.c:100:10: warning: variable ‘symbol’ set but not used [-Wunused-but-set-variable]
+  100 |     char symbol;
+      |          ^~~~~~
+In file included from jogador.c:2:
+jogada.h: In function ‘CriaJogada’:
+jogada.h:20:1: warning: control reaches end of non-void function [-Wreturn-type]
+   20 | }
+      | ^
+jogo.c: In function ‘AcabouJogo’:
+jogo.c:73:9: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+   73 |         printf("JOGADOR 1 Venceu!\n");
+      |         ^~~~~~
+jogo.c:5:1: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+    4 | #include "stdlib.h"
+  +++ |+#include <stdio.h>
+    5 | 
+jogo.c:73:9: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+   73 |         printf("JOGADOR 1 Venceu!\n");
+      |         ^~~~~~
+jogo.c:73:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+jogo.c:79:9: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+   79 |         printf("JOGADOR 2 Venceu!\n");
+      |         ^~~~~~
+jogo.c:79:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+jogo.c:86:9: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+   86 |         printf("Sem vencedor!\n");
+      |         ^~~~~~
+jogo.c:86:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+jogo.c: In function ‘ContinuaJogo’:
+jogo.c:101:5: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+  101 |     printf("Jogar novamente? (s,n)\n");
+      |     ^~~~~~
+jogo.c:101:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+jogo.c:104:5: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
+  104 |     scanf("%*[^ns]"); // Lê tudo que não for n nem s;
+      |     ^~~~~
+jogo.c:104:5: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+jogo.c:104:5: warning: incompatible implicit declaration of built-in function ‘scanf’ [-Wbuiltin-declaration-mismatch]
+jogo.c:104:5: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+tabuleiro.c:5: warning: "PECA_1" redefined
+    5 | #define PECA_1 'X'
+      | 
+In file included from tabuleiro.c:3:
+tabuleiro.h:6: note: this is the location of the previous definition
+    6 | #define PECA_1 1
+      | 
+tabuleiro.c:6: warning: "PECA_2" redefined
+    6 | #define PECA_2 '0'
+      | 
+tabuleiro.h:7: note: this is the location of the previous definition
+    7 | #define PECA_2 2
+      | 

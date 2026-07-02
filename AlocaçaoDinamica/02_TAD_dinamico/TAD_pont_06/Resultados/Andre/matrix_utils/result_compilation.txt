@@ -1,0 +1,4 @@
+matrix_utlis.c: In function ‘MatrixMultiply’:
+matrix_utlis.c:176:9: warning: unused variable ‘k’ [-Wunused-variable]
+  176 |     int k = 0;
+      |         ^

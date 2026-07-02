@@ -1,0 +1,9 @@
+Filme cadastrado 1 - Donnie Darko
+
+Filme 2 nao cadastrado.
+Total de filmes alugados: 0 com custo de R$0
+
+Filme 2 nao cadastrado.
+
+~ESTOQUE~
+1 - Donnie Darko Fitas em estoque: 1

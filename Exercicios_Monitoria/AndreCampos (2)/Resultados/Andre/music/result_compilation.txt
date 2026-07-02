@@ -1,0 +1,31 @@
+music.c: In function ‘music_read_and_construct’:
+music.c:23:25: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+   23 |     Music *m = (Music *)malloc(sizeof(Music));
+      |                         ^~~~~~
+music.c:4:1: note: include ‘<stdlib.h>’ or provide a declaration of ‘malloc’
+    3 | #include "music.h"
+  +++ |+#include <stdlib.h>
+    4 | 
+music.c:23:25: warning: incompatible implicit declaration of built-in function ‘malloc’ [-Wbuiltin-declaration-mismatch]
+   23 |     Music *m = (Music *)malloc(sizeof(Music));
+      |                         ^~~~~~
+music.c:23:25: note: include ‘<stdlib.h>’ or provide a declaration of ‘malloc’
+music.c:26:22: warning: assignment to ‘char **’ from incompatible pointer type ‘char *’ [-Wincompatible-pointer-types]
+   26 |     m->participantes = (char *)malloc(sizeof(char *) * 50);
+      |                      ^
+music.c:36:37: warning: implicit declaration of function ‘realloc’ [-Wimplicit-function-declaration]
+   36 |         m->participantes = (char **)realloc(m->participantes, sizeof(char *) * (m->feats));
+      |                                     ^~~~~~~
+music.c:36:37: note: include ‘<stdlib.h>’ or provide a declaration of ‘realloc’
+music.c:36:37: warning: incompatible implicit declaration of built-in function ‘realloc’ [-Wbuiltin-declaration-mismatch]
+music.c:36:37: note: include ‘<stdlib.h>’ or provide a declaration of ‘realloc’
+music.c:38:13: warning: unused variable ‘i’ [-Wunused-variable]
+   38 |         int i = 0;
+      |             ^
+music.c: In function ‘music_free’:
+music.c:105:5: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+  105 |     free(mu->album);
+      |     ^~~~
+music.c:105:5: note: include ‘<stdlib.h>’ or provide a declaration of ‘free’
+music.c:105:5: warning: incompatible implicit declaration of built-in function ‘free’ [-Wbuiltin-declaration-mismatch]
+music.c:105:5: note: include ‘<stdlib.h>’ or provide a declaration of ‘free’

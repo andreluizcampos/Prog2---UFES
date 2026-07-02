@@ -1,0 +1,23 @@
+IMPRIMINDO MIDIAS FAVORITAS
+
+MIDIA 1: JOGO
+Titulo: Hollow_Knight
+Desenvolvedora: Team_Cherry
+Genero: Metroidvania
+Ano de lancamento: 2017
+Plataforma(s): PC, Switch, PS4, Xbox_One
+
+MIDIA 2: MUSICA
+Titulo: EARFQUAKE
+Artista: Tyler_The_Creator feat. Playboi_Carti
+
+Album: IGOR
+Genero: Hip-Hop
+
+MIDIA 3: FILME
+Titulo: Moonlight
+Diretor(a): Barry_Jenkins
+Genero: Drama
+Ano de lancamento: 2016
+Duracao: 111 min
+

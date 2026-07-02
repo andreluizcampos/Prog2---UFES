@@ -1,0 +1,96 @@
+3
+D
+L
+0 1
+R
+H
+K
+J
+A
+L
+1 0
+M
+D
+U
+J
+W
+D
+L
+0 2
+R
+J
+L
+1 2
+R
+S
+U
+J
+D
+L
+2 3
+R
+K
+K
+S
+A
+S
+L
+4 4
+R
+W
+J
+U
+W
+H
+D
+A
+A
+J
+S
+S
+L
+5 2
+R
+S
+A
+L
+6 1
+R
+S
+H
+K
+S
+L
+8 1
+M
+H
+K
+U
+H
+L
+7 0
+M
+D
+K
+S
+D
+J
+K
+U
+U
+D
+W
+D
+L
+6 6
+R
+K
+L
+6 7
+M
+D
+S
+D
+J
+S
+f

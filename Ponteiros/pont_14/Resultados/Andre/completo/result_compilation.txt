@@ -1,0 +1,4 @@
+botao.c: In function ‘ExecutaBotao’:
+botao.c:87:9: warning: unused variable ‘action’ [-Wunused-variable]
+   87 |     int action = 0;
+      |         ^~~~~~

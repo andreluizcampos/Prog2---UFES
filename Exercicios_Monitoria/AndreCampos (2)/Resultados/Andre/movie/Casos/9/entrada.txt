@@ -1,0 +1,13 @@
+JOGO Portal Valve Puzzle 2007 3 PC PS3 Xbox_360
+MUSICA DNA Kendrick_Lamar 0 DAMN Rap
+FILME Tubarao Steven_Spielberg Suspense 1975 124
+JOGO Guitar_Hero_III Neversoft Musical 2007 4 PS2 PS3 Xbox_360 Wii
+MUSICA Into_You Ariana_Grande 0 Dangerous_Woman Pop
+FILME Super_Mario_Bros Aaron_Horvath Animacao 2023 92
+JOGO Sleeping_Dogs United_Front_Games Acao 2012 3 PC PS3 Xbox_360
+FILME Detona_Ralph Rich_Moore Animacao 2012 101
+MUSICA Runaway Kanye_West 1 Pusha_T My_Beautiful_Dark_Twisted_Fantasy Hip-Hop
+JOGO Bully Rockstar Acao_Aventura 2006 3 PS2 Xbox PC
+FILME Waves Trey_Edward_Shults Drama 2019 135
+MUSICA See_You_Again Tyler_The_Creator 1 Kali_Uchis Flower_Boy Hip-Hop
+IMPRIMIR

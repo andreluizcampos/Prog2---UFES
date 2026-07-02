@@ -1,0 +1,14 @@
+loja.c: In function ‘RegistraVenda’:
+loja.c:71:1: warning: control reaches end of non-void function [-Wreturn-type]
+   71 | }
+      | ^
+main.c: In function ‘main’:
+main.c:11:63: warning: unused variable ‘flag’ [-Wunused-variable]
+   11 |     int qtd_loja = 0, j = 0, salario, id, i = 0, option = -1, flag = 0;
+      |                                                               ^~~~
+main.c:11:43: warning: unused variable ‘i’ [-Wunused-variable]
+   11 |     int qtd_loja = 0, j = 0, salario, id, i = 0, option = -1, flag = 0;
+      |                                           ^
+main.c:11:23: warning: unused variable ‘j’ [-Wunused-variable]
+   11 |     int qtd_loja = 0, j = 0, salario, id, i = 0, option = -1, flag = 0;
+      |                       ^

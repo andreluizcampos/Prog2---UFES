@@ -1,0 +1,19 @@
+relatorio.c: In function ‘geraRelatorio’:
+relatorio.c:54:21: warning: unused variable ‘equipe_jogador’ [-Wunused-variable]
+   54 |                 int equipe_jogador = tJogador_getIdEquipe(jogadores[k]);
+      |                     ^~~~~~~~~~~~~~
+relatorio.c:46:13: warning: unused variable ‘id_equipe’ [-Wunused-variable]
+   46 |         int id_equipe = tEquipe_getIdUnico(equipes[i]);
+      |             ^~~~~~~~~
+relatorio.c:95:87: warning: unknown conversion type character ‘\x0a’ in format [-Wformat=]
+   95 |     printf("EQUIPE CAMPEA: %s (%d) P:%d J:%d V:%d E:%d D:%d GP:%d GC:%d SG:%d AP:%.2f%\n", Campea, id_campea, P, J, V, E, D, GP, GC, SG, aproveitamento);
+      |                                                                                       ^~
+relatorio.c:23:82: warning: unused variable ‘id_time_artilheiro’ [-Wunused-variable]
+   23 |     int campea = 0, artilheiro = 0, id_campea = 0, id_artilheiro = -1, flag = 1, id_time_artilheiro = 0;
+      |                                                                                  ^~~~~~~~~~~~~~~~~~
+relatorio.c:23:52: warning: unused variable ‘id_artilheiro’ [-Wunused-variable]
+   23 |     int campea = 0, artilheiro = 0, id_campea = 0, id_artilheiro = -1, flag = 1, id_time_artilheiro = 0;
+      |                                                    ^~~~~~~~~~~~~
+relatorio.c:23:9: warning: unused variable ‘campea’ [-Wunused-variable]
+   23 |     int campea = 0, artilheiro = 0, id_campea = 0, id_artilheiro = -1, flag = 1, id_time_artilheiro = 0;
+      |         ^~~~~~

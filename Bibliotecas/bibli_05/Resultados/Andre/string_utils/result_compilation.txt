@@ -1,0 +1,8 @@
+string_utils.c: In function ‘string_copy’:
+string_utils.c:22:9: warning: unused variable ‘size’ [-Wunused-variable]
+   22 |     int size=string_length(src);
+      |         ^~~~
+string_utils.c: In function ‘string_upper’:
+string_utils.c:40:9: warning: unused variable ‘size’ [-Wunused-variable]
+   40 |     int size=string_length(str);
+      |         ^~~~

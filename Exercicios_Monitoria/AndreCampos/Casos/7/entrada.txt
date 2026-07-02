@@ -1,0 +1,6 @@
+JOGO The_Last_of_Us Naughty_Dog Acao_Aventura 2013 2 PS3 PS4
+JOGO Rocket_League Psyonix Esporte 2015 4 PC PS4 Xbox_One Switch
+JOGO GTA_San_Andreas Rockstar Acao 2004 5 PS2 Xbox PC iOS Android
+JOGO Pokemon_FireRed Game_Freak RPG 2004 1 GBA
+JOGO Resident_Evil_2_Remake Capcom Terror 2019 3 PC PS4 Xbox_One
+IMPRIMIR

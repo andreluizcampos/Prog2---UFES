@@ -1,0 +1,6 @@
+/usr/bin/ld: Resultados/Andre/completo/main.o: in function `main':
+main.c:(.text+0x91): undefined reference to `convert_kelvin_to_celsius'
+/usr/bin/ld: main.c:(.text+0xb0): undefined reference to `convert_fahrenheit_to_celsius'
+/usr/bin/ld: main.c:(.text+0x11d): undefined reference to `convert_celsius_to_kelvin'
+/usr/bin/ld: main.c:(.text+0x15b): undefined reference to `convert_celsius_to_fahrenheit'
+collect2: error: ld returned 1 exit status

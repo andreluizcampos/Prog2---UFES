@@ -1,0 +1,13 @@
+=== BATALHA NAVAL: Alice vs Bob ===
+
+Navios posicionados. Iniciando jogo...
+
+Rodada 1 - Alice atira em (1, 0): Afundou um navio!
+Rodada 2 - Alice atira em (1, 1): Afundou um navio!
+Rodada 3 - Alice atira em (1, 2): Afundou um navio!
+Rodada 4 - Alice atira em (1, 3): Afundou um navio!
+Rodada 5 - Alice atira em (1, 4): VITORIA!
+
+*** PARTIDA ENCERRADA ***
+Vencedor: Alice
+

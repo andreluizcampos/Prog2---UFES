@@ -1,0 +1,9 @@
+Arquivos Esperados Corretos: 6 de 7
+Pastas Compiladas Corretamente: 1 de 1 
+Pastas Linkadas Corretamente: 1 de 1
+Teste nba
+  - Resultados corretos: 10 de 10
+  - Valgrinds corretos: 10 de 10
+Nota de Andre para o teste nba: 2.00
+Nota de Andre: 0+(2.00)
+Nota de Andre: 2.00

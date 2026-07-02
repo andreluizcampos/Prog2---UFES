@@ -1,0 +1,11 @@
+Arquivos
+	saida.txt = 10
+
+	Validações
+main = 1.00
+		musica = 2.00
+playlist = 5.50
+completo = 1.50
+
+	Valgrind
+		desconto = 0.0

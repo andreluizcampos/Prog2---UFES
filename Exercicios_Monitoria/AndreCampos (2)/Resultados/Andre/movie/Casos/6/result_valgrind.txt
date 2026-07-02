@@ -1,0 +1,15 @@
+==92054== Memcheck, a memory error detector
+==92054== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==92054== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==92054== Command: Resultados/Andre/movie/prog Resultados/Andre/movie/Casos/6
+==92054== Parent PID: 92053
+==92054== 
+==92054== 
+==92054== HEAP SUMMARY:
+==92054==     in use at exit: 0 bytes in 0 blocks
+==92054==   total heap usage: 23 allocs, 23 frees, 11,080 bytes allocated
+==92054== 
+==92054== All heap blocks were freed -- no leaks are possible
+==92054== 
+==92054== For lists of detected and suppressed errors, rerun with: -s
+==92054== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

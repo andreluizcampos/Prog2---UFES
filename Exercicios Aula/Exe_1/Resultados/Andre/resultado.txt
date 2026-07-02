@@ -1,0 +1,21 @@
+Arquivos Esperados Corretos: 5 de 6
+Pastas Compiladas Corretamente: 3 de 4 
+Pastas Linkadas Corretamente: 3 de 4
+Teste main
+  - Resultados corretos: 10 de 40
+  - Valgrinds corretos: 10 de 10
+Nota de Andre para o teste main: 2.50
+Teste completo
+  - Resultados corretos: 0 de 40
+  - Valgrinds corretos: 0 de 10
+Nota de Andre para o teste completo: 0
+Teste franquia
+  - Resultados corretos: 10 de 40
+  - Valgrinds corretos: 10 de 10
+Nota de Andre para o teste franquia: 2.50
+Teste partida
+  - Resultados corretos: 10 de 40
+  - Valgrinds corretos: 10 de 10
+Nota de Andre para o teste partida: 2.50
+Nota de Andre: 0+(2.50)+(2.50)+(2.50)+(0)
+Nota de Andre: 7.50

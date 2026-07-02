@@ -1,0 +1,24 @@
+Mateus Laura 6
+3 0 1 3 Cruzador
+4 0 0 2 Fragata
+2 3 1 1 Corveta
+0 5 1 1 Lancha
+5 2 1 1 Bote
+0 0 1 3 Cruzador
+0 4 0 2 Fragata
+2 0 1 1 Corveta
+4 3 1 1 Lancha
+5 5 1 1 Bote
+5 4 0
+3 0 1
+3 1 1
+3 2 1
+5 5 1
+0 0 0
+0 1 0
+0 2 0
+0 4 0
+1 4 0
+2 0 0
+4 3 0
+5 5 0

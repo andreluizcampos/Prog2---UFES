@@ -1,0 +1,17 @@
+/usr/bin/ld: Resultados/Andre/navio/navio.o: na função "navio_criar":
+navio.c:(.text+0x0): múltiplas definições de "navio_criar"; Resultados/Andre/navio/grid.o:grid.c:(.text+0x0): definido primeiro aqui
+/usr/bin/ld: Resultados/Andre/navio/navio.o: na função "navio_atingir":
+navio.c:(.text+0xbf): múltiplas definições de "navio_atingir"; Resultados/Andre/navio/grid.o:grid.c:(.text+0xd5): definido primeiro aqui
+/usr/bin/ld: Resultados/Andre/navio/navio.o: na função "navio_afundado":
+navio.c:(.text+0x100): múltiplas definições de "navio_afundado"; Resultados/Andre/navio/grid.o:grid.c:(.text+0xfd): definido primeiro aqui
+/usr/bin/ld: Resultados/Andre/navio/navio.o: na função "navio_nome":
+navio.c:(.text+0x13c): múltiplas definições de "navio_nome"; Resultados/Andre/navio/grid.o:grid.c:(.text+0x139): definido primeiro aqui
+/usr/bin/ld: Resultados/Andre/navio/navio.o: na função "navio_tamanho":
+navio.c:(.text+0x14e): múltiplas definições de "navio_tamanho"; Resultados/Andre/navio/grid.o:grid.c:(.text+0x14b): definido primeiro aqui
+/usr/bin/ld: Resultados/Andre/navio/main.o: na função "main":
+main.c:(.text+0x77): undefined reference to `partida_criar'
+/usr/bin/ld: main.c:(.text+0x1de): undefined reference to `partida_turno_atual'
+/usr/bin/ld: main.c:(.text+0x1fe): undefined reference to `partida_jogar'
+/usr/bin/ld: main.c:(.text+0x2fb): undefined reference to `partida_encerrada'
+/usr/bin/ld: main.c:(.text+0x359): undefined reference to `partida_vencedor'
+collect2: error: ld returned 1 exit status

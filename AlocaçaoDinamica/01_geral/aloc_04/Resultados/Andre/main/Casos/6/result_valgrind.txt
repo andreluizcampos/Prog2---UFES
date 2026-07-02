@@ -1,0 +1,37 @@
+==268875== Memcheck, a memory error detector
+==268875== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==268875== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==268875== Command: Resultados/Andre/main/prog Resultados/Andre/main/Casos/6
+==268875== Parent PID: 268874
+==268875== 
+==268875== Invalid read of size 4
+==268875==    at 0x10933B: LeVetor (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/01_geral/aloc_04/Resultados/Andre/main/prog)
+==268875==    by 0x1091CD: main (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/01_geral/aloc_04/Resultados/Andre/main/prog)
+==268875==  Address 0xa is not stack'd, malloc'd or (recently) free'd
+==268875== 
+==268875== 
+==268875== Process terminating with default action of signal 11 (SIGSEGV)
+==268875==  Access not within mapped region at address 0xA
+==268875==    at 0x10933B: LeVetor (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/01_geral/aloc_04/Resultados/Andre/main/prog)
+==268875==    by 0x1091CD: main (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/01_geral/aloc_04/Resultados/Andre/main/prog)
+==268875==  If you believe this happened as a result of a stack
+==268875==  overflow in your program's main thread (unlikely but
+==268875==  possible), you can try to increase the size of the
+==268875==  main thread stack using the --main-stacksize= flag.
+==268875==  The main thread stack size used in this run was 8388608.
+==268875== 
+==268875== HEAP SUMMARY:
+==268875==     in use at exit: 4,107 bytes in 2 blocks
+==268875==   total heap usage: 2 allocs, 0 frees, 4,107 bytes allocated
+==268875== 
+==268875== LEAK SUMMARY:
+==268875==    definitely lost: 0 bytes in 0 blocks
+==268875==    indirectly lost: 0 bytes in 0 blocks
+==268875==      possibly lost: 0 bytes in 0 blocks
+==268875==    still reachable: 4,107 bytes in 2 blocks
+==268875==         suppressed: 0 bytes in 0 blocks
+==268875== Reachable blocks (those to which a pointer was found) are not shown.
+==268875== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==268875== 
+==268875== For lists of detected and suppressed errors, rerun with: -s
+==268875== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

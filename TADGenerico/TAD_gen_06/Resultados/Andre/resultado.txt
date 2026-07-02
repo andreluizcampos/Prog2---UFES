@@ -1,0 +1,9 @@
+Arquivos Esperados Corretos: 5 de 5
+Pastas Compiladas Corretamente: 1 de 1 
+Pastas Linkadas Corretamente: 1 de 1
+Teste numcomplexo
+  - Resultados corretos: 9 de 9
+  - Valgrinds corretos: 9 de 9
+Nota de Andre para o teste numcomplexo: 2.50
+Nota de Andre: 0+(2.50)
+Nota de Andre: 2.50

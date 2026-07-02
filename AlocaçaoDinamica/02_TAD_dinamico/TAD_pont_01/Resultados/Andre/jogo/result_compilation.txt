@@ -1,0 +1,31 @@
+jogo.c: In function ‘AcabouJogo’:
+jogo.c:73:9: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+   73 |         printf("JOGADOR 1 Venceu!\n");
+      |         ^~~~~~
+jogo.c:5:1: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+    4 | #include "stdlib.h"
+  +++ |+#include <stdio.h>
+    5 | 
+jogo.c:73:9: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+   73 |         printf("JOGADOR 1 Venceu!\n");
+      |         ^~~~~~
+jogo.c:73:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+jogo.c:79:9: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+   79 |         printf("JOGADOR 2 Venceu!\n");
+      |         ^~~~~~
+jogo.c:79:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+jogo.c:86:9: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+   86 |         printf("Sem vencedor!\n");
+      |         ^~~~~~
+jogo.c:86:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+jogo.c: In function ‘ContinuaJogo’:
+jogo.c:101:5: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+  101 |     printf("Jogar novamente? (s,n)\n");
+      |     ^~~~~~
+jogo.c:101:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+jogo.c:104:5: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
+  104 |     scanf("%*[^ns]"); // Lê tudo que não for n nem s;
+      |     ^~~~~
+jogo.c:104:5: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+jogo.c:104:5: warning: incompatible implicit declaration of built-in function ‘scanf’ [-Wbuiltin-declaration-mismatch]
+jogo.c:104:5: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’

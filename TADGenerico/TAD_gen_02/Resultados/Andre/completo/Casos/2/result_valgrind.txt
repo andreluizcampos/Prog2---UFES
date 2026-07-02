@@ -1,0 +1,46 @@
+==32450== Memcheck, a memory error detector
+==32450== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==32450== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==32450== Command: Resultados/Andre/completo/prog Resultados/Andre/completo/Casos/2
+==32450== Parent PID: 32449
+==32450== 
+==32450== Invalid read of size 4
+==32450==    at 0x1098A9: CalculaSomaVerificacaoPacote (in /home/andrecampos/Documentos/Prog2/TADGenerico/TAD_gen_02/Resultados/Andre/completo/prog)
+==32450==    by 0x1097C4: ImprimePacote (in /home/andrecampos/Documentos/Prog2/TADGenerico/TAD_gen_02/Resultados/Andre/completo/prog)
+==32450==    by 0x1093FD: ImprimirTodosPacotes (in /home/andrecampos/Documentos/Prog2/TADGenerico/TAD_gen_02/Resultados/Andre/completo/prog)
+==32450==    by 0x1095B7: main (in /home/andrecampos/Documentos/Prog2/TADGenerico/TAD_gen_02/Resultados/Andre/completo/prog)
+==32450==  Address 0x10 is not stack'd, malloc'd or (recently) free'd
+==32450== 
+==32450== 
+==32450== Process terminating with default action of signal 11 (SIGSEGV)
+==32450==  Access not within mapped region at address 0x10
+==32450==    at 0x1098A9: CalculaSomaVerificacaoPacote (in /home/andrecampos/Documentos/Prog2/TADGenerico/TAD_gen_02/Resultados/Andre/completo/prog)
+==32450==    by 0x1097C4: ImprimePacote (in /home/andrecampos/Documentos/Prog2/TADGenerico/TAD_gen_02/Resultados/Andre/completo/prog)
+==32450==    by 0x1093FD: ImprimirTodosPacotes (in /home/andrecampos/Documentos/Prog2/TADGenerico/TAD_gen_02/Resultados/Andre/completo/prog)
+==32450==    by 0x1095B7: main (in /home/andrecampos/Documentos/Prog2/TADGenerico/TAD_gen_02/Resultados/Andre/completo/prog)
+==32450==  If you believe this happened as a result of a stack
+==32450==  overflow in your program's main thread (unlikely but
+==32450==  possible), you can try to increase the size of the
+==32450==  main thread stack using the --main-stacksize= flag.
+==32450==  The main thread stack size used in this run was 8388608.
+==32450== 
+==32450== HEAP SUMMARY:
+==32450==     in use at exit: 8,656 bytes in 22 blocks
+==32450==   total heap usage: 33 allocs, 11 frees, 9,064 bytes allocated
+==32450== 
+==32450== 368 (216 direct, 152 indirect) bytes in 9 blocks are definitely lost in loss record 5 of 7
+==32450==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==32450==    by 0x109610: CriaPacote (in /home/andrecampos/Documentos/Prog2/TADGenerico/TAD_gen_02/Resultados/Andre/completo/prog)
+==32450==    by 0x109513: main (in /home/andrecampos/Documentos/Prog2/TADGenerico/TAD_gen_02/Resultados/Andre/completo/prog)
+==32450== 
+==32450== LEAK SUMMARY:
+==32450==    definitely lost: 216 bytes in 9 blocks
+==32450==    indirectly lost: 152 bytes in 9 blocks
+==32450==      possibly lost: 0 bytes in 0 blocks
+==32450==    still reachable: 8,288 bytes in 4 blocks
+==32450==         suppressed: 0 bytes in 0 blocks
+==32450== Reachable blocks (those to which a pointer was found) are not shown.
+==32450== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==32450== 
+==32450== For lists of detected and suppressed errors, rerun with: -s
+==32450== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)

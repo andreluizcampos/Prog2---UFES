@@ -1,0 +1,163 @@
+- Arquivo de configuração encontrado!
+ - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+
+#######################################
+ALUNO: Andre
+#######################################
+
+CRIANDO O DIRETÓRIO DE RESULTADO PARA Andre:
+ - Diretório Resultados/Andre criado com sucesso!
+ - Diretório Resultados/Andre/filme criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/Andre/filme.c' encontrado!
+ - Arquivo esperado 'Respostas/Andre/filme.h' encontrado!
+ - Arquivo esperado 'Respostas/Andre/locadora.c' encontrado!
+ - Arquivo esperado 'Respostas/Andre/locadora.h' encontrado!
+ - Arquivo esperado 'Respostas/Andre/main.c' encontrado!
+ - Arquivos esperados enviados: Ok!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta filme:
+ - Copiando os Casos de teste para a pasta Resultados/Andre/filme
+ - Copiando os Includes/filme.h Includes/locadora.h do professor para a pasta Resultados/Andre/filme
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Andre/filme
+ - Removendo o filme.o do professor da pasta Resultados/Andre/filme
+ - Copiando o Respostas/Andre/filme.c do aluno para a pasta Resultados/Andre/filme
+ - Copiando Arquivos Extras do Aluno:
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Compilação dos arquivos do aluno na pasta filme ok!
+ - Arquivo de output gerado: Resultados/Andre/filme/result_compilation.txt
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta filme:
+ - Gerando o binário prog linkando com o(s) arquivo(s) filme/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Andre/filme/result_linking.txt
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta filme / Caso 1:
+ - Arquivo de output gerado: Resultados/Andre/filme/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 5, frees: 5, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta filme / Caso 10:
+ - Arquivo de output gerado: Resultados/Andre/filme/Casos/10/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 7, frees: 7, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta filme / Caso 11:
+ - Arquivo de output gerado: Resultados/Andre/filme/Casos/11/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 7, frees: 7, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta filme / Caso 12:
+ - Arquivo de output gerado: Resultados/Andre/filme/Casos/12/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 5, frees: 5, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta filme / Caso 13:
+ - Arquivo de output gerado: Resultados/Andre/filme/Casos/13/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 7, frees: 7, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta filme / Caso 14:
+ - Arquivo de output gerado: Resultados/Andre/filme/Casos/14/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 11, frees: 11, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta filme / Caso 15:
+ - Arquivo de output gerado: Resultados/Andre/filme/Casos/15/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 12, frees: 12, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta filme / Caso 16:
+ - Arquivo de output gerado: Resultados/Andre/filme/Casos/16/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 6, frees: 6, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta filme / Caso 17:
+ - Arquivo de output gerado: Resultados/Andre/filme/Casos/17/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 10, frees: 10, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta filme / Caso 18:
+ - Arquivo de output gerado: Resultados/Andre/filme/Casos/18/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 12, frees: 12, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta filme / Caso 19:
+ - Arquivo de output gerado: Resultados/Andre/filme/Casos/19/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 23, frees: 23, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta filme / Caso 2:
+ - Arquivo de output gerado: Resultados/Andre/filme/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 7, frees: 7, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta filme / Caso 3:
+ - Arquivo de output gerado: Resultados/Andre/filme/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 9, frees: 9, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta filme / Caso 4:
+ - Arquivo de output gerado: Resultados/Andre/filme/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 5, frees: 5, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta filme / Caso 5:
+ - Arquivo de output gerado: Resultados/Andre/filme/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 7, frees: 7, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta filme / Caso 6:
+ - Arquivo de output gerado: Resultados/Andre/filme/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 9, frees: 9, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta filme / Caso 7:
+ - Arquivo de output gerado: Resultados/Andre/filme/Casos/7/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 5, frees: 5, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta filme / Caso 8:
+ - Arquivo de output gerado: Resultados/Andre/filme/Casos/8/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 7, frees: 7, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta filme / Caso 9:
+ - Arquivo de output gerado: Resultados/Andre/filme/Casos/9/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 9, frees: 9, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta filme (máximo 2.50) - 190.00 de 190 - 100.00% de 2.50: 2.50.
+ -----
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Aluno: Andre
+ - Arquivos Esperados Corretos: 5 de 5
+ - Pastas Compiladas Corretamente: 1 de 1 
+ - Pastas Linkadas Corretamente: 1 de 1
+ - Teste filme
+ - Resultados corretos: 19 de 19
+ - Valgrinds corretos: 19 de 19
+ - Nota de Andre para o teste filme: 2.50
+ - Nota de Andre: 0+(2.50)
+ - Nota de Andre: 2.50
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+
+

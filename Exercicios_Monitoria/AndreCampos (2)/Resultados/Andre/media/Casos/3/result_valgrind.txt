@@ -1,0 +1,15 @@
+==90701== Memcheck, a memory error detector
+==90701== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==90701== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==90701== Command: Resultados/Andre/media/prog Resultados/Andre/media/Casos/3
+==90701== Parent PID: 90700
+==90701== 
+==90701== 
+==90701== HEAP SUMMARY:
+==90701==     in use at exit: 0 bytes in 0 blocks
+==90701==   total heap usage: 7 allocs, 7 frees, 8,488 bytes allocated
+==90701== 
+==90701== All heap blocks were freed -- no leaks are possible
+==90701== 
+==90701== For lists of detected and suppressed errors, rerun with: -s
+==90701== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

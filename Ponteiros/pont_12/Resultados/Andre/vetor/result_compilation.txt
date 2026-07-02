@@ -1,0 +1,4 @@
+vetor.c: In function ‘LeVetor’:
+vetor.c:6:9: warning: unused variable ‘size’ [-Wunused-variable]
+    6 |     int size=0;
+      |         ^~~~

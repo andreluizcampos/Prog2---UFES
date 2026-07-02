@@ -1,0 +1,4 @@
+candidato.c: In function ‘ImprimeCandidato’:
+candidato.c:84:40: warning: unknown conversion type character ‘\x0a’ in format [-Wformat=]
+   84 |     printf("%s (%s), %d voto(s), %.2f% \n", candidato.nome, candidato.partido, candidato.votos, percentualVotos);
+      |                                        ^~

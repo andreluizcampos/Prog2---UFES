@@ -1,0 +1,15 @@
+==56242== Memcheck, a memory error detector
+==56242== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==56242== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==56242== Command: Resultados/AndreCampos/main/prog Resultados/AndreCampos/main/Casos/2
+==56242== Parent PID: 56241
+==56242== 
+==56242== 
+==56242== HEAP SUMMARY:
+==56242==     in use at exit: 0 bytes in 0 blocks
+==56242==   total heap usage: 2 allocs, 2 frees, 1,024 bytes allocated
+==56242== 
+==56242== All heap blocks were freed -- no leaks are possible
+==56242== 
+==56242== For lists of detected and suppressed errors, rerun with: -s
+==56242== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

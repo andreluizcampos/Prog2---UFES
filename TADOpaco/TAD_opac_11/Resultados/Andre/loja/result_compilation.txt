@@ -1,0 +1,4 @@
+loja.c: In function ‘CalculaLucro’:
+loja.c:103:11: warning: unused variable ‘t_v’ [-Wunused-variable]
+  103 |     float t_v = 0;
+      |           ^~~

@@ -1,0 +1,13 @@
+Arquivos Esperados Corretos: 13 de 13
+Pastas Compiladas Corretamente: 2 de 2 
+Pastas Linkadas Corretamente: 2 de 2
+Teste main
+  - Resultados corretos: 3 de 7
+  - Valgrinds corretos: 0 de 7
+Nota de Andre para o teste main: .90
+Teste relatorio
+  - Resultados corretos: 7 de 7
+  - Valgrinds corretos: 7 de 7
+Nota de Andre para o teste relatorio: 2.00
+Nota de Andre: 0+(.90)+(2.00)
+Nota de Andre: 2.90

@@ -1,0 +1,35 @@
+IMPRIMINDO MIDIAS FAVORITAS
+
+MIDIA 1: MUSICA
+Titulo: All_Of_The_Lights
+Artista: Kanye_West feat. Rihanna, Kid_Cudi
+
+Album: My_Beautiful_Dark_Twisted_Fantasy
+Genero: Hip-Hop
+
+MIDIA 2: MUSICA
+Titulo: good_4_u
+Artista: Olivia_Rodrigo
+Album: SOUR
+Genero: Pop
+
+MIDIA 3: MUSICA
+Titulo: Family_Ties
+Artista: Baby_Keem feat. Kendrick_Lamar
+
+Album: The_Melodic_Blue
+Genero: Rap
+
+MIDIA 4: MUSICA
+Titulo: Espresso
+Artista: Sabrina_Carpenter
+Album: Short_n_Sweet
+Genero: Pop
+
+MIDIA 5: MUSICA
+Titulo: Get_You
+Artista: Daniel_Caesar feat. Kali_Uchis
+
+Album: Freudian
+Genero: R&B
+

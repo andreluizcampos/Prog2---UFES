@@ -1,0 +1,16 @@
+In file included from main.c:3:
+main.c: In function ‘main’:
+utils_char2.h:4:20: warning: initialization of ‘int *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+    4 | #define TAM_PADRAO 10
+      |                    ^~
+main.c:12:16: note: in expansion of macro ‘TAM_PADRAO’
+   12 |     int *tam = TAM_PADRAO;               // Neste exercício foi necessário atentar-se a: Range do vetor e passagem na main;
+      |                ^~~~~~~~~~
+main.c:19:21: warning: passing argument 1 of ‘LiberaVetor’ from incompatible pointer type [-Wincompatible-pointer-types]
+   19 |         LiberaVetor(tam);
+      |                     ^~~
+      |                     |
+      |                     int *
+utils_char2.h:48:24: note: expected ‘char *’ but argument is of type ‘int *’
+   48 | void LiberaVetor(char *vetor);
+      |                  ~~~~~~^~~~~

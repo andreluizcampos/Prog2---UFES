@@ -1,0 +1,4 @@
+tMonitorador.c: In function ‘iniciaMonitoramentotMonitorador’:
+tMonitorador.c:80:9: warning: unused variable ‘ev_on’ [-Wunused-variable]
+   80 |     int ev_on = 0;
+      |         ^~~~~

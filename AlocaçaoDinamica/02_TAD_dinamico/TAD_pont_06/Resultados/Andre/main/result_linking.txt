@@ -1,0 +1,27 @@
+/usr/bin/ld: Resultados/Andre/main/matrix_utlis.o: na função "MatrixCreate":
+matrix_utlis.c:(.text+0x0): múltiplas definições de "MatrixCreate"; Resultados/Andre/main/matrix_utils.o:/home/bruno/github/script-de-correcao/TAD_pont_06/Gabarito-src/matrix_utils.c:5: definido primeiro aqui
+/usr/bin/ld: Resultados/Andre/main/matrix_utlis.o: na função "MatrixFree":
+matrix_utlis.c:(.text+0x99): múltiplas definições de "MatrixFree"; Resultados/Andre/main/matrix_utils.o:/home/bruno/github/script-de-correcao/TAD_pont_06/Gabarito-src/matrix_utils.c:15: definido primeiro aqui
+/usr/bin/ld: Resultados/Andre/main/matrix_utlis.o: na função "MatrixRead":
+matrix_utlis.c:(.text+0x100): múltiplas definições de "MatrixRead"; Resultados/Andre/main/matrix_utils.o:/home/bruno/github/script-de-correcao/TAD_pont_06/Gabarito-src/matrix_utils.c:23: definido primeiro aqui
+/usr/bin/ld: Resultados/Andre/main/matrix_utlis.o: na função "MatrixPrint":
+matrix_utlis.c:(.text+0x195): múltiplas definições de "MatrixPrint"; Resultados/Andre/main/matrix_utils.o:/home/bruno/github/script-de-correcao/TAD_pont_06/Gabarito-src/matrix_utils.c:34: definido primeiro aqui
+/usr/bin/ld: Resultados/Andre/main/matrix_utlis.o: na função "PossibleMatrixSum":
+matrix_utlis.c:(.text+0x221): múltiplas definições de "PossibleMatrixSum"; Resultados/Andre/main/matrix_utils.o:/home/bruno/github/script-de-correcao/TAD_pont_06/Gabarito-src/matrix_utils.c:48: definido primeiro aqui
+/usr/bin/ld: Resultados/Andre/main/matrix_utlis.o: na função "PossibleMatrixSub":
+matrix_utlis.c:(.text+0x261): múltiplas definições de "PossibleMatrixSub"; Resultados/Andre/main/matrix_utils.o:/home/bruno/github/script-de-correcao/TAD_pont_06/Gabarito-src/matrix_utils.c:52: definido primeiro aqui
+/usr/bin/ld: Resultados/Andre/main/matrix_utlis.o: na função "PossibleMatrixMultiply":
+matrix_utlis.c:(.text+0x2a1): múltiplas definições de "PossibleMatrixMultiply"; Resultados/Andre/main/matrix_utils.o:/home/bruno/github/script-de-correcao/TAD_pont_06/Gabarito-src/matrix_utils.c:56: definido primeiro aqui
+/usr/bin/ld: Resultados/Andre/main/matrix_utlis.o: na função "MatrixAdd":
+matrix_utlis.c:(.text+0x2c8): múltiplas definições de "MatrixAdd"; Resultados/Andre/main/matrix_utils.o:/home/bruno/github/script-de-correcao/TAD_pont_06/Gabarito-src/matrix_utils.c:60: definido primeiro aqui
+/usr/bin/ld: Resultados/Andre/main/matrix_utlis.o: na função "MatrixSub":
+matrix_utlis.c:(.text+0x391): múltiplas definições de "MatrixSub"; Resultados/Andre/main/matrix_utils.o:/home/bruno/github/script-de-correcao/TAD_pont_06/Gabarito-src/matrix_utils.c:72: definido primeiro aqui
+/usr/bin/ld: Resultados/Andre/main/matrix_utlis.o: na função "MatrixMultiply":
+matrix_utlis.c:(.text+0x45a): múltiplas definições de "MatrixMultiply"; Resultados/Andre/main/matrix_utils.o:/home/bruno/github/script-de-correcao/TAD_pont_06/Gabarito-src/matrix_utils.c:84: definido primeiro aqui
+/usr/bin/ld: Resultados/Andre/main/matrix_utlis.o: na função "TransposeMatrix":
+matrix_utlis.c:(.text+0x59c): múltiplas definições de "TransposeMatrix"; Resultados/Andre/main/matrix_utils.o:/home/bruno/github/script-de-correcao/TAD_pont_06/Gabarito-src/matrix_utils.c:99: definido primeiro aqui
+/usr/bin/ld: Resultados/Andre/main/matrix_utlis.o: na função "MatrixMultiplyByScalar":
+matrix_utlis.c:(.text+0x64c): múltiplas definições de "MatrixMultiplyByScalar"; Resultados/Andre/main/matrix_utils.o:/home/bruno/github/script-de-correcao/TAD_pont_06/Gabarito-src/matrix_utils.c:111: definido primeiro aqui
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o: na função "_start":
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status

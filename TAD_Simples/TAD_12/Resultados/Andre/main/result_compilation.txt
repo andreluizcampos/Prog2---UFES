@@ -1,0 +1,10 @@
+main.c: In function ‘main’:
+main.c:16:10: warning: unused variable ‘data’ [-Wunused-variable]
+   16 |     Data data, dataBase;
+      |          ^~~~
+main.c:15:37: warning: unused variable ‘genero’ [-Wunused-variable]
+   15 |     char nome[100], cartaoSus[100], genero, option;
+      |                                     ^~~~~~
+main.c:15:10: warning: unused variable ‘nome’ [-Wunused-variable]
+   15 |     char nome[100], cartaoSus[100], genero, option;
+      |          ^~~~

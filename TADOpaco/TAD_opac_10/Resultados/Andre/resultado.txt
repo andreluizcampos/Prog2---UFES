@@ -1,0 +1,13 @@
+Arquivos Esperados Corretos: 5 de 5
+Pastas Compiladas Corretamente: 2 de 2 
+Pastas Linkadas Corretamente: 2 de 2
+Teste main
+  - Resultados corretos: 6 de 6
+  - Valgrinds corretos: 6 de 6
+Nota de Andre para o teste main: 2.50
+Teste completo
+  - Resultados corretos: 6 de 6
+  - Valgrinds corretos: 6 de 6
+Nota de Andre para o teste completo: 2.50
+Nota de Andre: 0+(2.50)+(2.50)
+Nota de Andre: 5.00

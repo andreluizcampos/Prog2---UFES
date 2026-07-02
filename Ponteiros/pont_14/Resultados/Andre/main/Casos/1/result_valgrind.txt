@@ -1,0 +1,15 @@
+==52501== Memcheck, a memory error detector
+==52501== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==52501== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==52501== Command: Resultados/Andre/main/prog Resultados/Andre/main/Casos/1
+==52501== Parent PID: 52500
+==52501== 
+==52501== 
+==52501== HEAP SUMMARY:
+==52501==     in use at exit: 0 bytes in 0 blocks
+==52501==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==52501== 
+==52501== All heap blocks were freed -- no leaks are possible
+==52501== 
+==52501== For lists of detected and suppressed errors, rerun with: -s
+==52501== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

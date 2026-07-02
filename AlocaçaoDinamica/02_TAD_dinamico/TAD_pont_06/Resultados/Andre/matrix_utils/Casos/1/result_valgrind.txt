@@ -1,0 +1,876 @@
+==65824== Memcheck, a memory error detector
+==65824== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==65824== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==65824== Command: Resultados/Andre/matrix_utils/prog Resultados/Andre/matrix_utils/Casos/1
+==65824== Parent PID: 65823
+==65824== 
+==65824== Invalid read of size 4
+==65824==    at 0x1097C9: PossibleMatrixSub (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109389: main (main.c:42)
+==65824==  Address 0x4a83084 is 4 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109650: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109570: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid read of size 4
+==65824==    at 0x1097DB: PossibleMatrixSub (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109389: main (main.c:42)
+==65824==  Address 0x4a83080 is 0 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109650: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109570: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid read of size 4
+==65824==    at 0x10999D: MatrixSub (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1093B4: main (main.c:47)
+==65824==  Address 0x4a83080 is 0 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109650: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109570: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid read of size 8
+==65824==    at 0x10990E: MatrixSub (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1093B4: main (main.c:47)
+==65824==  Address 0x4a83088 is 8 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109650: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109570: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid read of size 8
+==65824==    at 0x10991F: MatrixSub (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1093B4: main (main.c:47)
+==65824==  Address 0x4a830d0 is 0 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109644: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109598: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid read of size 4
+==65824==    at 0x10992F: MatrixSub (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1093B4: main (main.c:47)
+==65824==  Address 0x4a83120 is 0 bytes inside a block of size 8 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109625: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x1095D3: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid read of size 8
+==65824==    at 0x10995C: MatrixSub (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1093B4: main (main.c:47)
+==65824==  Address 0x4a83088 is 8 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109650: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109570: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid read of size 8
+==65824==    at 0x10996D: MatrixSub (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1093B4: main (main.c:47)
+==65824==  Address 0x4a830d0 is 0 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109644: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109598: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid write of size 4
+==65824==    at 0x10997F: MatrixSub (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1093B4: main (main.c:47)
+==65824==  Address 0x4a83120 is 0 bytes inside a block of size 8 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109625: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x1095D3: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid read of size 4
+==65824==    at 0x10976A: MatrixPrint (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1093C4: main (main.c:48)
+==65824==  Address 0x4a83080 is 0 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109650: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109570: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid read of size 4
+==65824==    at 0x109750: MatrixPrint (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1093C4: main (main.c:48)
+==65824==  Address 0x4a83084 is 4 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109650: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109570: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid read of size 8
+==65824==    at 0x10970F: MatrixPrint (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1093C4: main (main.c:48)
+==65824==  Address 0x4a83088 is 8 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109650: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109570: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid read of size 8
+==65824==    at 0x109720: MatrixPrint (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1093C4: main (main.c:48)
+==65824==  Address 0x4a830d0 is 0 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109644: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109598: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid read of size 4
+==65824==    at 0x109730: MatrixPrint (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1093C4: main (main.c:48)
+==65824==  Address 0x4a83120 is 0 bytes inside a block of size 8 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109625: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x1095D3: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid read of size 4
+==65824==    at 0x10962E: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Address 0x4a83080 is 0 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109650: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109570: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid read of size 8
+==65824==    at 0x10960A: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Address 0x4a83088 is 8 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109650: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109570: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid read of size 8
+==65824==    at 0x10961B: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Address 0x4a830d0 is 0 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109644: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109598: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid free() / delete / delete[] / realloc()
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109625: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Address 0x4a83120 is 0 bytes inside a block of size 8 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109625: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x1095D3: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid read of size 8
+==65824==    at 0x109639: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Address 0x4a83088 is 8 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109650: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109570: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid free() / delete / delete[] / realloc()
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109644: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Address 0x4a830d0 is 0 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109644: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109598: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid free() / delete / delete[] / realloc()
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109650: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Address 0x4a83080 is 0 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109650: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109570: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid read of size 4
+==65824==    at 0x109809: PossibleMatrixMultiply (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1093E2: main (main.c:50)
+==65824==  Address 0x4a83084 is 4 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109650: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109570: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid read of size 4
+==65824==    at 0x1099DB: MatrixMultiply (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x10940D: main (main.c:55)
+==65824==  Address 0x4a83080 is 0 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109650: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109570: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid read of size 4
+==65824==    at 0x109ADF: MatrixMultiply (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x10940D: main (main.c:55)
+==65824==  Address 0x4a83080 is 0 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109650: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109570: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid read of size 8
+==65824==    at 0x109A3A: MatrixMultiply (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x10940D: main (main.c:55)
+==65824==  Address 0x4a83088 is 8 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109650: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109570: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid read of size 8
+==65824==    at 0x109A4B: MatrixMultiply (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x10940D: main (main.c:55)
+==65824==  Address 0x4a830d0 is 0 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109644: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109598: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid read of size 4
+==65824==    at 0x109A5B: MatrixMultiply (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x10940D: main (main.c:55)
+==65824==  Address 0x4a83120 is 0 bytes inside a block of size 8 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109625: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x1095D3: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid read of size 4
+==65824==    at 0x109B04: TransposeMatrix (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1094C6: main (main.c:70)
+==65824==  Address 0x4a83080 is 0 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109650: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109570: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid read of size 4
+==65824==    at 0x109B0A: TransposeMatrix (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1094C6: main (main.c:70)
+==65824==  Address 0x4a83084 is 4 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109650: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109570: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid read of size 8
+==65824==    at 0x109B30: TransposeMatrix (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1094C6: main (main.c:70)
+==65824==  Address 0x4a83088 is 8 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109650: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109570: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid read of size 8
+==65824==    at 0x109B41: TransposeMatrix (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1094C6: main (main.c:70)
+==65824==  Address 0x4a830d0 is 0 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109644: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109598: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid read of size 4
+==65824==    at 0x109B77: TransposeMatrix (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1094C6: main (main.c:70)
+==65824==  Address 0x4a83120 is 0 bytes inside a block of size 8 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109625: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x1095D3: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid read of size 4
+==65824==    at 0x109B04: TransposeMatrix (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1094EE: main (main.c:74)
+==65824==  Address 0x4a831c0 is 0 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109650: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109570: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092DE: main (main.c:26)
+==65824== 
+==65824== Invalid read of size 4
+==65824==    at 0x109B0A: TransposeMatrix (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1094EE: main (main.c:74)
+==65824==  Address 0x4a831c4 is 4 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109650: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109570: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092DE: main (main.c:26)
+==65824== 
+==65824== Invalid read of size 8
+==65824==    at 0x109B30: TransposeMatrix (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1094EE: main (main.c:74)
+==65824==  Address 0x4a831c8 is 8 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109650: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109570: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092DE: main (main.c:26)
+==65824== 
+==65824== Invalid read of size 8
+==65824==    at 0x109B41: TransposeMatrix (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1094EE: main (main.c:74)
+==65824==  Address 0x4a83210 is 0 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109644: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109598: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092DE: main (main.c:26)
+==65824== 
+==65824== Invalid read of size 4
+==65824==    at 0x109B77: TransposeMatrix (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1094EE: main (main.c:74)
+==65824==  Address 0x4a83260 is 0 bytes inside a block of size 8 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109625: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x1095D3: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092DE: main (main.c:26)
+==65824== 
+==65824== Invalid read of size 4
+==65824==    at 0x109789: PossibleMatrixSum (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109330: main (main.c:34)
+==65824==  Address 0x4a83084 is 4 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109650: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109570: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid read of size 4
+==65824==    at 0x109790: PossibleMatrixSum (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109330: main (main.c:34)
+==65824==  Address 0x4a831c4 is 4 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109650: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109570: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092DE: main (main.c:26)
+==65824== 
+==65824== Invalid read of size 4
+==65824==    at 0x10979B: PossibleMatrixSum (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109330: main (main.c:34)
+==65824==  Address 0x4a83080 is 0 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109650: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109570: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid read of size 4
+==65824==    at 0x1097A1: PossibleMatrixSum (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109330: main (main.c:34)
+==65824==  Address 0x4a831c0 is 0 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109650: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109570: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092DE: main (main.c:26)
+==65824== 
+==65824== Invalid read of size 4
+==65824==    at 0x1098D4: MatrixAdd (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x10935B: main (main.c:39)
+==65824==  Address 0x4a83080 is 0 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109650: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109570: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid read of size 4
+==65824==    at 0x1098C0: MatrixAdd (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x10935B: main (main.c:39)
+==65824==  Address 0x4a831c4 is 4 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109650: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109570: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092DE: main (main.c:26)
+==65824== 
+==65824== Invalid read of size 8
+==65824==    at 0x109845: MatrixAdd (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x10935B: main (main.c:39)
+==65824==  Address 0x4a83088 is 8 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109650: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109570: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid read of size 8
+==65824==    at 0x109856: MatrixAdd (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x10935B: main (main.c:39)
+==65824==  Address 0x4a830d0 is 0 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109644: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109598: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid read of size 4
+==65824==    at 0x109866: MatrixAdd (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x10935B: main (main.c:39)
+==65824==  Address 0x4a83120 is 0 bytes inside a block of size 8 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109625: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x1095D3: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid read of size 8
+==65824==    at 0x10986C: MatrixAdd (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x10935B: main (main.c:39)
+==65824==  Address 0x4a831c8 is 8 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109650: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109570: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092DE: main (main.c:26)
+==65824== 
+==65824== Invalid read of size 8
+==65824==    at 0x10987D: MatrixAdd (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x10935B: main (main.c:39)
+==65824==  Address 0x4a83210 is 0 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109644: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109598: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092DE: main (main.c:26)
+==65824== 
+==65824== Invalid read of size 4
+==65824==    at 0x10988D: MatrixAdd (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x10935B: main (main.c:39)
+==65824==  Address 0x4a83260 is 0 bytes inside a block of size 8 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109625: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x1095D3: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092DE: main (main.c:26)
+==65824== 
+==65824== Invalid read of size 8
+==65824==    at 0x109893: MatrixAdd (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x10935B: main (main.c:39)
+==65824==  Address 0x4a83088 is 8 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109650: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109570: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid read of size 8
+==65824==    at 0x1098A4: MatrixAdd (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x10935B: main (main.c:39)
+==65824==  Address 0x4a830d0 is 0 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109644: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109598: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid write of size 4
+==65824==    at 0x1098B6: MatrixAdd (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x10935B: main (main.c:39)
+==65824==  Address 0x4a83120 is 0 bytes inside a block of size 8 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109625: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x1095D3: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid read of size 4
+==65824==    at 0x10976A: MatrixPrint (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x10936B: main (main.c:40)
+==65824==  Address 0x4a83080 is 0 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109650: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109570: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid read of size 4
+==65824==    at 0x109750: MatrixPrint (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x10936B: main (main.c:40)
+==65824==  Address 0x4a83084 is 4 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109650: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109570: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid read of size 8
+==65824==    at 0x10970F: MatrixPrint (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x10936B: main (main.c:40)
+==65824==  Address 0x4a83088 is 8 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109650: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109570: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid read of size 8
+==65824==    at 0x109720: MatrixPrint (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x10936B: main (main.c:40)
+==65824==  Address 0x4a830d0 is 0 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109644: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109598: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid read of size 4
+==65824==    at 0x109730: MatrixPrint (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x10936B: main (main.c:40)
+==65824==  Address 0x4a83120 is 0 bytes inside a block of size 8 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109625: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x1095D3: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid read of size 4
+==65824==    at 0x10962E: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x10952C: main (main.c:84)
+==65824==  Address 0x4a83080 is 0 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109650: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109570: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid read of size 8
+==65824==    at 0x10960A: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x10952C: main (main.c:84)
+==65824==  Address 0x4a83088 is 8 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109650: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109570: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid read of size 8
+==65824==    at 0x10961B: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x10952C: main (main.c:84)
+==65824==  Address 0x4a830d0 is 0 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109644: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109598: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid free() / delete / delete[] / realloc()
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109625: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x10952C: main (main.c:84)
+==65824==  Address 0x4a83120 is 0 bytes inside a block of size 8 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109625: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x1095D3: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid read of size 8
+==65824==    at 0x109639: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x10952C: main (main.c:84)
+==65824==  Address 0x4a83088 is 8 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109650: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109570: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid free() / delete / delete[] / realloc()
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109644: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x10952C: main (main.c:84)
+==65824==  Address 0x4a830d0 is 0 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109644: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109598: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid free() / delete / delete[] / realloc()
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109650: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x10952C: main (main.c:84)
+==65824==  Address 0x4a83080 is 0 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109650: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109570: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092A0: main (main.c:22)
+==65824== 
+==65824== Invalid read of size 4
+==65824==    at 0x10962E: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109538: main (main.c:85)
+==65824==  Address 0x4a831c0 is 0 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109650: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109570: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092DE: main (main.c:26)
+==65824== 
+==65824== Invalid read of size 8
+==65824==    at 0x10960A: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109538: main (main.c:85)
+==65824==  Address 0x4a831c8 is 8 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109650: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109570: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092DE: main (main.c:26)
+==65824== 
+==65824== Invalid read of size 8
+==65824==    at 0x10961B: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109538: main (main.c:85)
+==65824==  Address 0x4a83210 is 0 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109644: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109598: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092DE: main (main.c:26)
+==65824== 
+==65824== Invalid free() / delete / delete[] / realloc()
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109625: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109538: main (main.c:85)
+==65824==  Address 0x4a83260 is 0 bytes inside a block of size 8 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109625: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x1095D3: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092DE: main (main.c:26)
+==65824== 
+==65824== Invalid read of size 8
+==65824==    at 0x109639: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109538: main (main.c:85)
+==65824==  Address 0x4a831c8 is 8 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109650: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109570: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092DE: main (main.c:26)
+==65824== 
+==65824== Invalid free() / delete / delete[] / realloc()
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109644: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109538: main (main.c:85)
+==65824==  Address 0x4a83210 is 0 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109644: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109598: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092DE: main (main.c:26)
+==65824== 
+==65824== Invalid free() / delete / delete[] / realloc()
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109650: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109538: main (main.c:85)
+==65824==  Address 0x4a831c0 is 0 bytes inside a block of size 16 free'd
+==65824==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109650: MatrixFree (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x109512: main (main.c:80)
+==65824==  Block was alloc'd at
+==65824==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==65824==    by 0x109570: MatrixCreate (in /home/andrecampos/Documentos/Prog2/AlocaçaoDinamica/02_TAD_dinamico/TAD_pont_06/Resultados/Andre/matrix_utils/prog)
+==65824==    by 0x1092DE: main (main.c:26)
+==65824== 
+==65824== 
+==65824== HEAP SUMMARY:
+==65824==     in use at exit: 0 bytes in 0 blocks
+==65824==   total heap usage: 22 allocs, 38 frees, 8,432 bytes allocated
+==65824== 
+==65824== All heap blocks were freed -- no leaks are possible
+==65824== 
+==65824== For lists of detected and suppressed errors, rerun with: -s
+==65824== ERROR SUMMARY: 225 errors from 71 contexts (suppressed: 0 from 0)

@@ -1,0 +1,7 @@
+main.c: In function ‘main’:
+main.c:41:23: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   41 |         char *atual = partida_turno_atual(&p);
+      |                       ^~~~~~~~~~~~~~~~~~~
+main.c:70:18: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   70 |     char *venc = partida_vencedor(&p);
+      |                  ^~~~~~~~~~~~~~~~

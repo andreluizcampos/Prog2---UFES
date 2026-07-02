@@ -1,0 +1,19 @@
+In file included from franquia.h:7,
+                 from franquia.c:2:
+partida.h: In function ‘lerPartida’:
+partida.h:28:1: warning: control reaches end of non-void function [-Wreturn-type]
+   28 | }
+      | ^
+In file included from franquia.h:7,
+                 from main.c:2:
+partida.h: In function ‘lerPartida’:
+partida.h:28:1: warning: control reaches end of non-void function [-Wreturn-type]
+   28 | }
+      | ^
+partida.c:16:10: error: redefinition of ‘lerPartida’
+   16 | tPartida lerPartida(char *timeFora, char *timeCasa, int pontosTimeFora, int pontosTimeCasa){
+      |          ^~~~~~~~~~
+In file included from partida.c:3:
+partida.h:23:10: note: previous definition of ‘lerPartida’ with type ‘tPartida(char *, char *, int,  int)’
+   23 | tPartida lerPartida(char *timeFora, char *timeCasa, int pontosTimeFora, int pontosTimeCasa){
+      |          ^~~~~~~~~~

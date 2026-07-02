@@ -1,0 +1,12 @@
+candidato.c: In function ‘EhMesmoCandidato’:
+candidato.c:67:9: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   67 |     if( strcmp(candidato1->nome, candidato2->nome) == 0){
+      |         ^~~~~~
+candidato.c:5:1: note: include ‘<string.h>’ or provide a declaration of ‘strcmp’
+    4 | #include "candidato.h"
+  +++ |+#include <string.h>
+    5 | 
+candidato.c: In function ‘ImprimeCandidato’:
+candidato.c:127:39: warning: unknown conversion type character ‘\x0a’ in format [-Wformat=]
+  127 |     printf("%s (%s), %d voto(s), %.2f%\n", candidato->nome, candidato->partido, candidato->votos, percentualVotos);
+      |                                       ^~

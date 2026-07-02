@@ -1,0 +1,104 @@
+IMPRIMINDO MIDIAS FAVORITAS
+
+MIDIA 1: FILME
+Titulo: Incendios
+Diretor(a): Denis_Villeneuve
+Genero: Drama
+Ano de lancamento: 2010
+Duracao: 131 min
+
+MIDIA 2: JOGO
+Titulo: It_Takes_Two
+Desenvolvedora: Hazelight_Studios
+Genero: Aventura_Coop
+Ano de lancamento: 2021
+Plataforma(s): PC, PS4, PS5, Xbox_One
+
+MIDIA 3: MUSICA
+Titulo: Nights
+Artista: Frank_Ocean
+Album: Blonde
+Genero: R&B
+
+MIDIA 4: FILME
+Titulo: Fallen_Angels
+Diretor(a): Wong_Kar-Wai
+Genero: Romance
+Ano de lancamento: 1995
+Duracao: 99 min
+
+MIDIA 5: JOGO
+Titulo: The_Last_of_Us_Part_II
+Desenvolvedora: Naughty_Dog
+Genero: Acao_Aventura
+Ano de lancamento: 2020
+Plataforma(s): PS4
+
+MIDIA 6: MUSICA
+Titulo: Best_Interest
+Artista: Tyler_The_Creator
+Album: IGOR_Outtake
+Genero: Hip-Hop
+
+MIDIA 7: FILME
+Titulo: Massacre_da_Serra_Eletrica
+Diretor(a): Tobe_Hooper
+Genero: Terror
+Ano de lancamento: 1974
+Duracao: 83 min
+
+MIDIA 8: JOGO
+Titulo: Outer_Wilds
+Desenvolvedora: Mobius_Digital
+Genero: Exploracao
+Ano de lancamento: 2019
+Plataforma(s): PC, PS4, PS5, Xbox_One
+
+MIDIA 9: MUSICA
+Titulo: Father_Stretch_My_Hands_Pt_1
+Artista: Kanye_West feat. Kid_Cudi
+
+Album: The_Life_Of_Pablo
+Genero: Hip-Hop
+
+MIDIA 10: FILME
+Titulo: Quebrando_Regras
+Diretor(a): Jeff_Wadlow
+Genero: Acao
+Ano de lancamento: 2008
+Duracao: 113 min
+
+MIDIA 11: JOGO
+Titulo: Hollow_Knight
+Desenvolvedora: Team_Cherry
+Genero: Metroidvania
+Ano de lancamento: 2017
+Plataforma(s): PC, Switch, PS4, Xbox_One
+
+MIDIA 12: MUSICA
+Titulo: m.A.A.d_city
+Artista: Kendrick_Lamar feat. MC_Eiht
+
+Album: good_kid_m.A.A.d_city
+Genero: Rap
+
+MIDIA 13: FILME
+Titulo: Toy_Story_3
+Diretor(a): Lee_Unkrich
+Genero: Animacao
+Ano de lancamento: 2010
+Duracao: 103 min
+
+MIDIA 14: JOGO
+Titulo: Pokemon_FireRed
+Desenvolvedora: Game_Freak
+Genero: RPG
+Ano de lancamento: 2004
+Plataforma(s): GBA
+
+MIDIA 15: MUSICA
+Titulo: drivers_license
+Artista: Olivia_Rodrigo
+Album: SOUR
+Genero: Pop
+

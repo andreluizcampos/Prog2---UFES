@@ -1,0 +1,7 @@
+tEventoMovimento.c: In function ‘processaEventoMovimento’:
+tEventoMovimento.c:47:23: warning: unused variable ‘horizontal’ [-Wunused-variable]
+   47 |     int vertical = 0, horizontal = 0;
+      |                       ^~~~~~~~~~
+tEventoMovimento.c:47:9: warning: unused variable ‘vertical’ [-Wunused-variable]
+   47 |     int vertical = 0, horizontal = 0;
+      |         ^~~~~~~~

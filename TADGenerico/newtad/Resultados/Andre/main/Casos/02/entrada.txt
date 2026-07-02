@@ -1,0 +1,55 @@
+1
+D
+L
+0 1
+R
+D
+L
+0 2
+M
+D
+D
+S
+D
+S
+D
+D
+S
+S
+W
+D
+D
+L
+3 9
+R
+S
+L
+4 9
+M
+S
+L
+5 9
+M
+S
+L
+6 9
+R
+A
+A
+L
+6 7
+M
+A
+L
+6 6
+R
+D
+S
+D
+D
+S
+L
+8 9
+R
+S
+f

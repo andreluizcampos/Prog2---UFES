@@ -1,0 +1,247 @@
+- Arquivo de configuração encontrado!
+ - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+
+#######################################
+ALUNO: Andre
+#######################################
+
+CRIANDO O DIRETÓRIO DE RESULTADO PARA Andre:
+ - Diretório Resultados/Andre criado com sucesso!
+ - Diretório Resultados/Andre/main criado com sucesso!
+ - Diretório Resultados/Andre/paciente criado com sucesso!
+ - Diretório Resultados/Andre/lesao criado com sucesso!
+ - Diretório Resultados/Andre/data criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/Andre/data.c' encontrado!
+ - Arquivo esperado 'Respostas/Andre/data.h' encontrado!
+ - Arquivo esperado 'Respostas/Andre/lesao.c' encontrado!
+ - Arquivo esperado 'Respostas/Andre/lesao.h' encontrado!
+ - Arquivo esperado 'Respostas/Andre/main.c' encontrado!
+ - Arquivo esperado 'Respostas/Andre/paciente.c' encontrado!
+ - Arquivo esperado 'Respostas/Andre/paciente.h' encontrado!
+ - Arquivos esperados enviados: Ok!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/Andre/main
+ - Copiando os Includes/data.h Includes/lesao.h Includes/paciente.h do professor para a pasta Resultados/Andre/main
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Andre/main
+ - Removendo o main.o do professor da pasta Resultados/Andre/main
+ - Copiando o Respostas/Andre/main.c do aluno para a pasta Resultados/Andre/main
+ - Pasta paciente:
+ - Copiando os Casos de teste para a pasta Resultados/Andre/paciente
+ - Copiando os Includes/data.h Includes/lesao.h Includes/paciente.h do professor para a pasta Resultados/Andre/paciente
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Andre/paciente
+ - Removendo o paciente.o do professor da pasta Resultados/Andre/paciente
+ - Copiando o Respostas/Andre/paciente.c do aluno para a pasta Resultados/Andre/paciente
+ - Pasta lesao:
+ - Copiando os Casos de teste para a pasta Resultados/Andre/lesao
+ - Copiando os Includes/data.h Includes/lesao.h Includes/paciente.h do professor para a pasta Resultados/Andre/lesao
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Andre/lesao
+ - Removendo o lesao.o do professor da pasta Resultados/Andre/lesao
+ - Copiando o Respostas/Andre/lesao.c do aluno para a pasta Resultados/Andre/lesao
+ - Pasta data:
+ - Copiando os Casos de teste para a pasta Resultados/Andre/data
+ - Copiando os Includes/data.h Includes/lesao.h Includes/paciente.h do professor para a pasta Resultados/Andre/data
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Andre/data
+ - Removendo o data.o do professor da pasta Resultados/Andre/data
+ - Copiando o Respostas/Andre/data.c do aluno para a pasta Resultados/Andre/data
+ - Copiando Arquivos Extras do Aluno:
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Compilação dos arquivos do aluno na pasta main ok!
+ - Arquivo de output gerado: Resultados/Andre/main/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta paciente ok!
+ - Arquivo de output gerado: Resultados/Andre/paciente/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta lesao ok!
+ - Arquivo de output gerado: Resultados/Andre/lesao/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta data ok!
+ - Arquivo de output gerado: Resultados/Andre/data/result_compilation.txt
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Andre/main/result_linking.txt
+ - Pasta paciente:
+ - Gerando o binário prog linkando com o(s) arquivo(s) paciente/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Andre/paciente/result_linking.txt
+ - Pasta lesao:
+ - Gerando o binário prog linkando com o(s) arquivo(s) lesao/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Andre/lesao/result_linking.txt
+ - Pasta data:
+ - Gerando o binário prog linkando com o(s) arquivo(s) data/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Andre/data/result_linking.txt
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta main / Caso 1:
+ - Arquivo de output gerado: Resultados/Andre/main/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 2:
+ - Arquivo de output gerado: Resultados/Andre/main/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 3:
+ - Arquivo de output gerado: Resultados/Andre/main/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 4:
+ - Arquivo de output gerado: Resultados/Andre/main/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 5:
+ - Arquivo de output gerado: Resultados/Andre/main/Casos/5/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 2, frees: 0, errors: 0 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 6:
+ - Arquivo de output gerado: Resultados/Andre/main/Casos/6/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 2, frees: 0, errors: 0 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta main (máximo 3.0) - 40.00 de 60 - 66.00% de 3.0: 1.98.
+ -----
+ - Pasta paciente / Caso 1:
+ - Arquivo de output gerado: Resultados/Andre/paciente/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta paciente / Caso 2:
+ - Arquivo de output gerado: Resultados/Andre/paciente/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta paciente / Caso 3:
+ - Arquivo de output gerado: Resultados/Andre/paciente/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta paciente / Caso 4:
+ - Arquivo de output gerado: Resultados/Andre/paciente/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta paciente / Caso 5:
+ - Arquivo de output gerado: Resultados/Andre/paciente/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta paciente / Caso 6:
+ - Arquivo de output gerado: Resultados/Andre/paciente/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta paciente (máximo 3.0) - 60.00 de 60 - 100.00% de 3.0: 3.00.
+ -----
+ - Pasta lesao / Caso 1:
+ - Arquivo de output gerado: Resultados/Andre/lesao/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta lesao / Caso 2:
+ - Arquivo de output gerado: Resultados/Andre/lesao/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta lesao / Caso 3:
+ - Arquivo de output gerado: Resultados/Andre/lesao/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta lesao / Caso 4:
+ - Arquivo de output gerado: Resultados/Andre/lesao/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta lesao / Caso 5:
+ - Arquivo de output gerado: Resultados/Andre/lesao/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta lesao / Caso 6:
+ - Arquivo de output gerado: Resultados/Andre/lesao/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta lesao (máximo 3.0) - 60.00 de 60 - 100.00% de 3.0: 3.00.
+ -----
+ - Pasta data / Caso 1:
+ - Arquivo de output gerado: Resultados/Andre/data/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta data / Caso 2:
+ - Arquivo de output gerado: Resultados/Andre/data/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta data / Caso 3:
+ - Arquivo de output gerado: Resultados/Andre/data/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta data / Caso 4:
+ - Arquivo de output gerado: Resultados/Andre/data/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta data / Caso 5:
+ - Arquivo de output gerado: Resultados/Andre/data/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta data / Caso 6:
+ - Arquivo de output gerado: Resultados/Andre/data/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta data (máximo 1.0) - 60.00 de 60 - 100.00% de 1.0: 1.00.
+ -----
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Aluno: Andre
+ - Arquivos Esperados Corretos: 7 de 7
+ - Pastas Compiladas Corretamente: 4 de 4 
+ - Pastas Linkadas Corretamente: 4 de 4
+ - Teste main
+ - Resultados corretos: 4 de 6
+ - Valgrinds corretos: 4 de 6
+ - Nota de Andre para o teste main: 1.98
+ - Teste paciente
+ - Resultados corretos: 6 de 6
+ - Valgrinds corretos: 6 de 6
+ - Nota de Andre para o teste paciente: 3.00
+ - Teste lesao
+ - Resultados corretos: 6 de 6
+ - Valgrinds corretos: 6 de 6
+ - Nota de Andre para o teste lesao: 3.00
+ - Teste data
+ - Resultados corretos: 6 de 6
+ - Valgrinds corretos: 6 de 6
+ - Nota de Andre para o teste data: 1.00
+ - Nota de Andre: 0+(3.00)+(3.00)+(1.98)+(1.00)
+ - Nota de Andre: 8.98
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+
+

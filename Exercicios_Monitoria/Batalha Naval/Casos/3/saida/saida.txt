@@ -1,0 +1,8 @@
+=== BATALHA NAVAL: Eva vs Joao ===
+
+Navios posicionados. Iniciando jogo...
+
+Rodada 1 - Eva atira em (1, 0): Acerto!
+Rodada 2 - Eva atira em (0, 0): Agua! Passa a vez.
+Rodada 3 - Joao atira em (0, 5): Agua! Passa a vez.
+Rodada 4 - Eva atira em (0, 1): Agua! Passa a vez.

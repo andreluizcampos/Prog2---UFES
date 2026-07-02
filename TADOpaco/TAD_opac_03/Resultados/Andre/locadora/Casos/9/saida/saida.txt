@@ -1,0 +1,11 @@
+Filme cadastrado 1 - Hannibal
+
+Filme 2 nao cadastrado.
+Total de filmes alugados: 1 com custo de R$10
+
+Filme 2 nao cadastrado.
+Filme 1 - Hannibal Devolvido!
+
+~ESTOQUE~
+1 - Hannibal Fitas em estoque: 1
+Lucro total R$10

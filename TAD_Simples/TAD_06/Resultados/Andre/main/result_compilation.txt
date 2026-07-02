@@ -1,0 +1,4 @@
+main.c: In function ‘main’:
+main.c:8:25: warning: unused variable ‘scalar’ [-Wunused-variable]
+    8 |     int c1, r1, c2, r2, scalar, option;
+      |                         ^~~~~~

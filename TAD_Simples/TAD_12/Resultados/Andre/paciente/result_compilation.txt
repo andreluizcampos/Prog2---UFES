@@ -1,0 +1,4 @@
+paciente.c: In function ‘lerPaciente’:
+paciente.c:35:14: warning: unused variable ‘paciente’ [-Wunused-variable]
+   35 |     Paciente paciente;
+      |              ^~~~~~~~

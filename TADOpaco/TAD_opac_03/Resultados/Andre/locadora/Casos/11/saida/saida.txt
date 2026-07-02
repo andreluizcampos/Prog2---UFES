@@ -1,0 +1,11 @@
+Filme cadastrado 2 - Shrek
+
+Filme 1 nao cadastrado.
+Filme 3 nao cadastrado.
+Total de filmes alugados: 1 com custo de R$4
+
+Filme 2 - Shrek Devolvido!
+
+~ESTOQUE~
+2 - Shrek Fitas em estoque: 1
+Lucro total R$4

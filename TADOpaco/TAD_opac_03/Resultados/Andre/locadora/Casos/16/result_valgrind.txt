@@ -1,0 +1,39 @@
+==110259== Memcheck, a memory error detector
+==110259== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==110259== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==110259== Command: Resultados/Andre/locadora/prog Resultados/Andre/locadora/Casos/16
+==110259== Parent PID: 110258
+==110259== 
+==110259== Conditional jump or move depends on uninitialised value(s)
+==110259==    at 0x484F37F: strcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==110259==    by 0x109338: LeFilme (in /home/andrecampos/Documentos/Prog2/TADOpaco/TAD_opac_03/Resultados/Andre/locadora/prog)
+==110259==    by 0x1096F4: LerCadastroLocadora (in /home/andrecampos/Documentos/Prog2/TADOpaco/TAD_opac_03/Resultados/Andre/locadora/prog)
+==110259==    by 0x109F00: main (in /home/andrecampos/Documentos/Prog2/TADOpaco/TAD_opac_03/Resultados/Andre/locadora/prog)
+==110259== 
+==110259== Conditional jump or move depends on uninitialised value(s)
+==110259==    at 0x484F397: strcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==110259==    by 0x109338: LeFilme (in /home/andrecampos/Documentos/Prog2/TADOpaco/TAD_opac_03/Resultados/Andre/locadora/prog)
+==110259==    by 0x1096F4: LerCadastroLocadora (in /home/andrecampos/Documentos/Prog2/TADOpaco/TAD_opac_03/Resultados/Andre/locadora/prog)
+==110259==    by 0x109F00: main (in /home/andrecampos/Documentos/Prog2/TADOpaco/TAD_opac_03/Resultados/Andre/locadora/prog)
+==110259== 
+==110259== 
+==110259== HEAP SUMMARY:
+==110259==     in use at exit: 72 bytes in 2 blocks
+==110259==   total heap usage: 8 allocs, 6 frees, 8,332 bytes allocated
+==110259== 
+==110259== 72 bytes in 2 blocks are definitely lost in loss record 1 of 1
+==110259==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==110259==    by 0x10929E: CriarFilme (in /home/andrecampos/Documentos/Prog2/TADOpaco/TAD_opac_03/Resultados/Andre/locadora/prog)
+==110259==    by 0x1096C4: LerCadastroLocadora (in /home/andrecampos/Documentos/Prog2/TADOpaco/TAD_opac_03/Resultados/Andre/locadora/prog)
+==110259==    by 0x109F00: main (in /home/andrecampos/Documentos/Prog2/TADOpaco/TAD_opac_03/Resultados/Andre/locadora/prog)
+==110259== 
+==110259== LEAK SUMMARY:
+==110259==    definitely lost: 72 bytes in 2 blocks
+==110259==    indirectly lost: 0 bytes in 0 blocks
+==110259==      possibly lost: 0 bytes in 0 blocks
+==110259==    still reachable: 0 bytes in 0 blocks
+==110259==         suppressed: 0 bytes in 0 blocks
+==110259== 
+==110259== Use --track-origins=yes to see where uninitialised values come from
+==110259== For lists of detected and suppressed errors, rerun with: -s
+==110259== ERROR SUMMARY: 7 errors from 3 contexts (suppressed: 0 from 0)

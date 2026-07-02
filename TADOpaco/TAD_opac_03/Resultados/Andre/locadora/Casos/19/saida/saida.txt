@@ -1,0 +1,101 @@
+Filme cadastrado 21 - The Last Castle
+Filme cadastrado 2 - Black Knight
+Filme cadastrado 3 - Legally Blonde
+Filme cadastrado 4 - The Glass House
+Filme cadastrado 5 - Tomb Raider
+
+~ESTOQUE~
+2 - Black Knight Fitas em estoque: 3
+3 - Legally Blonde Fitas em estoque: 3
+4 - The Glass House Fitas em estoque: 1
+21 - The Last Castle Fitas em estoque: 5
+5 - Tomb Raider Fitas em estoque: 2
+
+Filme 22 nao cadastrado.
+Filme 23 nao cadastrado.
+Total de filmes alugados: 1 com custo de R$10
+
+Filme 26 nao cadastrado.
+Total de filmes alugados: 0 com custo de R$0
+
+Filme 24 nao cadastrado.
+Filme 25 nao cadastrado.
+Filme 22 nao cadastrado.
+Total de filmes alugados: 0 com custo de R$0
+
+Filme 23 nao cadastrado.
+Filme 24 nao cadastrado.
+Filme 25 nao cadastrado.
+Total de filmes alugados: 0 com custo de R$0
+
+~ESTOQUE~
+2 - Black Knight Fitas em estoque: 3
+3 - Legally Blonde Fitas em estoque: 3
+4 - The Glass House Fitas em estoque: 1
+21 - The Last Castle Fitas em estoque: 4
+5 - Tomb Raider Fitas em estoque: 2
+
+Filme cadastrado 26 - Vanilla Sky
+Filme cadastrado 7 - Atlantis
+Filme cadastrado 8 - Spy Kids
+Filme cadastrado 9 - Enemy Gates
+Filme cadastrado 0 - Jimmy Neutron
+
+~ESTOQUE~
+7 - Atlantis Fitas em estoque: 2
+2 - Black Knight Fitas em estoque: 3
+9 - Enemy Gates Fitas em estoque: 2
+0 - Jimmy Neutron Fitas em estoque: 10
+3 - Legally Blonde Fitas em estoque: 3
+8 - Spy Kids Fitas em estoque: 3
+4 - The Glass House Fitas em estoque: 1
+21 - The Last Castle Fitas em estoque: 4
+5 - Tomb Raider Fitas em estoque: 2
+26 - Vanilla Sky Fitas em estoque: 5
+
+Total de filmes alugados: 1 com custo de R$10
+
+Filme 24 nao cadastrado.
+Filme 25 nao cadastrado.
+
+Filme 24 nao cadastrado.
+Filme 29 nao cadastrado.
+Filme 30 nao cadastrado.
+Total de filmes alugados: 0 com custo de R$0
+
+Filme 24 nao cadastrado.
+Filme 29 nao cadastrado.
+
+Filme 24 nao cadastrado.
+Filme 25 nao cadastrado.
+Filme 22 nao cadastrado.
+
+Filme 21 - The Last Castle Devolvido!
+Filme 22 nao cadastrado.
+Filme 23 nao cadastrado.
+
+Filme 30 nao cadastrado.
+Total de filmes alugados: 0 com custo de R$0
+
+Filme 29 nao cadastrado.
+Filme 30 nao cadastrado.
+Total de filmes alugados: 0 com custo de R$0
+
+Filme 30 nao cadastrado.
+Total de filmes alugados: 0 com custo de R$0
+
+Filme 30 nao cadastrado.
+Filme 29 nao cadastrado.
+
+~ESTOQUE~
+7 - Atlantis Fitas em estoque: 2
+2 - Black Knight Fitas em estoque: 3
+9 - Enemy Gates Fitas em estoque: 2
+0 - Jimmy Neutron Fitas em estoque: 10
+3 - Legally Blonde Fitas em estoque: 3
+8 - Spy Kids Fitas em estoque: 3
+4 - The Glass House Fitas em estoque: 1
+21 - The Last Castle Fitas em estoque: 5
+5 - Tomb Raider Fitas em estoque: 2
+26 - Vanilla Sky Fitas em estoque: 4
+Lucro total R$20

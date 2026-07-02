@@ -1,0 +1,4 @@
+data.c: In function ‘lerData’:
+data.c:23:10: warning: unused variable ‘data’ [-Wunused-variable]
+   23 |     Data data;
+      |          ^~~~

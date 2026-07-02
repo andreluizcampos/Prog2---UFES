@@ -1,0 +1,9 @@
+Arquivos Esperados Corretos: 4 de 5
+Pastas Compiladas Corretamente: 1 de 1 
+Pastas Linkadas Corretamente: 1 de 1
+Teste loja
+  - Resultados corretos: 1 de 1
+  - Valgrinds corretos: 1 de 1
+Nota de Andre para o teste loja: 2.50
+Nota de Andre: 0+(2.50)
+Nota de Andre: 2.50

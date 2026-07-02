@@ -1,0 +1,4 @@
+vetor.c: In function ‘TrocaSeAcharMenor’:
+vetor.c:57:20: warning: comparison between pointer and integer
+   57 |         if (vet[i] < paraTrocar)
+      |                    ^

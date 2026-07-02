@@ -1,0 +1,4 @@
+ponto.c: In function ‘Pto_Cria’:
+ponto.c:22:20: warning: initialization of ‘tPonto’ {aka ‘struct ponto *’} from incompatible pointer type ‘struct ponto **’ [-Wincompatible-pointer-types]
+   22 |     tPonto ponto = (tPonto*)malloc(sizeof(tPonto));
+      |                    ^

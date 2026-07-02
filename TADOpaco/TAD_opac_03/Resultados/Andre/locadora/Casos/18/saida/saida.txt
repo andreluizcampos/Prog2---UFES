@@ -1,0 +1,52 @@
+Filme cadastrado 1 - Hannibal
+
+~ESTOQUE~
+1 - Hannibal Fitas em estoque: 1
+
+Filme 2 nao cadastrado.
+Filme 3 nao cadastrado.
+Total de filmes alugados: 1 com custo de R$10
+
+~ESTOQUE~
+1 - Hannibal Fitas em estoque: 0
+
+Filme 1 - Hannibal Devolvido!
+Nao e possivel devolver o filme 1 - Hannibal.
+
+~ESTOQUE~
+1 - Hannibal Fitas em estoque: 1
+
+Filme 2 nao cadastrado.
+
+Filme 15 nao cadastrado.
+Total de filmes alugados: 0 com custo de R$0
+
+Filme cadastrado 15 - Shrek
+
+Total de filmes alugados: 1 com custo de R$4
+
+Filme 5 nao cadastrado.
+
+~ESTOQUE~
+1 - Hannibal Fitas em estoque: 1
+15 - Shrek Fitas em estoque: 0
+
+Filme 2 nao cadastrado.
+Filme 2 nao cadastrado.
+Total de filmes alugados: 0 com custo de R$0
+
+Filme 1 -Hannibalnao disponivel no estoque. Volte mais tarde.
+Total de filmes alugados: 1 com custo de R$10
+
+~ESTOQUE~
+1 - Hannibal Fitas em estoque: 0
+15 - Shrek Fitas em estoque: 0
+
+Filme 2 nao cadastrado.
+
+Filme 2 nao cadastrado.
+
+~ESTOQUE~
+1 - Hannibal Fitas em estoque: 0
+15 - Shrek Fitas em estoque: 0
+Lucro total R$24

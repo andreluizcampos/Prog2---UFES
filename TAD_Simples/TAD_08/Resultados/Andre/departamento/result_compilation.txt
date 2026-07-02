@@ -1,0 +1,4 @@
+departamento.c: In function ‘calculaDesvioPadraoDepartamento’:
+departamento.c:63:12: warning: unused variable ‘desvio_p’ [-Wunused-variable]
+   63 |     double desvio_p = 0, somatorio = 0;
+      |            ^~~~~~~~

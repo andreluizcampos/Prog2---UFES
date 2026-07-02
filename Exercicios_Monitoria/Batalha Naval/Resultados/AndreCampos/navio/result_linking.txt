@@ -1,0 +1,10 @@
+/usr/bin/ld: Resultados/AndreCampos/navio/grid.o: na função "grid_posicionar":
+grid.c:(.text+0x22d): undefined reference to `navio_tamanho'
+/usr/bin/ld: Resultados/AndreCampos/navio/grid.o: na função "grid_atirar":
+grid.c:(.text+0x564): undefined reference to `navio_atingir'
+/usr/bin/ld: Resultados/AndreCampos/navio/main.o: na função "main":
+main.c:(.text+0xfb): undefined reference to `navio_criar'
+/usr/bin/ld: main.c:(.text+0x1c2): undefined reference to `navio_criar'
+/usr/bin/ld: Resultados/AndreCampos/navio/partida.o: na função "partida_jogar":
+partida.c:(.text+0x35b): undefined reference to `navio_afundado'
+collect2: error: ld returned 1 exit status

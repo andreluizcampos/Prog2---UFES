@@ -1,0 +1,15 @@
+Eva Joao 6
+0 0 1 2 Navio1
+0 2 1 2 Navio2
+0 4 1 1 Navio3
+2 0 1 1 Navio4
+2 2 1 1 Navio5
+1 0 1 2 Navio1
+1 2 1 2 Navio2
+1 4 1 1 Navio3
+3 0 1 1 Navio4
+3 2 1 1 Navio5
+1 0 0
+0 0 0
+0 5 1
+0 1 0

@@ -1,0 +1,4 @@
+lesao.c: In function ‘lerLesao’:
+lesao.c:36:9: warning: unused variable ‘j’ [-Wunused-variable]
+   36 |     int j = 0, malignidade = 0;
+      |         ^

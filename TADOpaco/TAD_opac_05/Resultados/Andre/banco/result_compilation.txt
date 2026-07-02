@@ -1,0 +1,12 @@
+banco.c: In function ‘SaqueContaBanco’:
+banco.c:75:17: warning: unused variable ‘acc_id’ [-Wunused-variable]
+   75 |     int id = 0, acc_id = 0;
+      |                 ^~~~~~
+banco.c: In function ‘DepositoContaBanco’:
+banco.c:102:17: warning: unused variable ‘acc_id’ [-Wunused-variable]
+  102 |     int id = 0, acc_id = 0;
+      |                 ^~~~~~
+banco.c: In function ‘TransferenciaContaBanco’:
+banco.c:129:17: warning: unused variable ‘acc_id’ [-Wunused-variable]
+  129 |     int id = 0, acc_id = 0, id2 = 0;
+      |                 ^~~~~~

@@ -1,0 +1,19 @@
+aluno.c: In function ‘CriaAluno’:
+aluno.c:21:27: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+   21 |     tAluno *a = (tAluno *)malloc(sizeof(tAluno));
+      |                           ^~~~~~
+aluno.c:4:1: note: include ‘<stdlib.h>’ or provide a declaration of ‘malloc’
+    3 | #include "aluno.h"
+  +++ |+#include <stdlib.h>
+    4 | 
+aluno.c:21:27: warning: incompatible implicit declaration of built-in function ‘malloc’ [-Wbuiltin-declaration-mismatch]
+   21 |     tAluno *a = (tAluno *)malloc(sizeof(tAluno));
+      |                           ^~~~~~
+aluno.c:21:27: note: include ‘<stdlib.h>’ or provide a declaration of ‘malloc’
+aluno.c: In function ‘DestroiAluno’:
+aluno.c:40:5: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+   40 |     free(a->nome);
+      |     ^~~~
+aluno.c:40:5: note: include ‘<stdlib.h>’ or provide a declaration of ‘free’
+aluno.c:40:5: warning: incompatible implicit declaration of built-in function ‘free’ [-Wbuiltin-declaration-mismatch]
+aluno.c:40:5: note: include ‘<stdlib.h>’ or provide a declaration of ‘free’
