@@ -1,0 +1,10 @@
+aluno.c: In function ‘LeAluno’:
+aluno.c:61:25: warning: variable ‘s3’ set but not used [-Wunused-but-set-variable]
+   61 |     int s1 = 0, s2 = 0, s3 = 0;
+      |                         ^~
+aluno.c:61:17: warning: variable ‘s2’ set but not used [-Wunused-but-set-variable]
+   61 |     int s1 = 0, s2 = 0, s3 = 0;
+      |                 ^~
+aluno.c:61:9: warning: variable ‘s1’ set but not used [-Wunused-but-set-variable]
+   61 |     int s1 = 0, s2 = 0, s3 = 0;
+      |         ^~
