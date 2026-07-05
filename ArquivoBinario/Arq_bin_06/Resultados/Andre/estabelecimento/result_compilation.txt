@@ -1,0 +1,14 @@
+estabelecimento.c: In function ‘DestroiEstabelecimento’:
+estabelecimento.c:37:46: warning: passing argument 2 of ‘VectorDestroy’ from incompatible pointer type [-Wincompatible-pointer-types]
+   37 |     VectorDestroy(estabelecimento->products, DestroiProduto);
+      |                                              ^~~~~~~~~~~~~~
+      |                                              |
+      |                                              void (*)(tProduto *) {aka void (*)(struct Produto *)}
+In file included from estabelecimento.c:5:
+vector.h:46:38: note: expected ‘void (*)(void *)’ but argument is of type ‘void (*)(tProduto *)’ {aka ‘void (*)(struct Produto *)’}
+   46 | void VectorDestroy(Vector *v, void (*destroy)(DataType));
+      |                               ~~~~~~~^~~~~~~~~~~~~~~~~~
+estabelecimento.c: In function ‘ImprimeRelatorioEstabelecimento’:
+estabelecimento.c:114:23: warning: unknown conversion type character ‘\x0a’ in format [-Wformat=]
+  114 |         printf(";%.2f%\n",percent*100);
+      |                       ^~
