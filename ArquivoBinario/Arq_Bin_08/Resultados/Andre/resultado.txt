@@ -1,0 +1,9 @@
+Arquivos Esperados Corretos: 6 de 7
+Pastas Compiladas Corretamente: 1 de 1 
+Pastas Linkadas Corretamente: 1 de 1
+Teste lista_contato
+  - Resultados corretos: 4 de 4
+  - Valgrinds corretos: 4 de 4
+Nota de Andre para o teste lista_contato: 2.50
+Nota de Andre: 0+(2.50)
+Nota de Andre: 2.50

@@ -1,0 +1,11 @@
+Arquivos
+	saida.txt=10
+	
+Validações
+	main=2.00
+    produto=3.00
+    supermercado=3.00
+	completo=2.00
+	
+Valgrind
+	desconto=0.5

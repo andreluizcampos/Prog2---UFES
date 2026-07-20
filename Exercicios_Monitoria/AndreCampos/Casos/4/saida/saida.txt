@@ -1,9 +1,0 @@
-IMPRIMINDO MIDIAS FAVORITAS
-
-MIDIA 1: FILME
-Titulo: Tropa_de_Elite
-Diretor(a): Jose_Padilha
-Genero: Acao
-Ano de lancamento: 2007
-Duracao: 115 min
-

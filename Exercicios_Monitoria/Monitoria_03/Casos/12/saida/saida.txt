@@ -1,0 +1,25 @@
+Detergente foi cadastrado(a)
+Sabao foi cadastrado(a)
+Shampoo foi cadastrado(a)
+Condicionador foi cadastrado(a)
+Detergente foi comprado(a)
+Detergente foi comprado(a)
+Detergente foi comprado(a)
+Sabao foi comprado(a)
+Sabao foi comprado(a)
+Shampoo foi comprado(a)
+Shampoo foi comprado(a)
+Shampoo foi comprado(a)
+Condicionador foi comprado(a)
+Condicionador foi comprado(a)
+Condicionador foi comprado(a)
+Condicionador foi comprado(a)
+Detergente teve estoque aumentado
+Sabao teve estoque aumentado
+Shampoo teve estoque aumentado
+Condicionador teve estoque aumentado
+4 - Condicionador - 46
+1 - Detergente - 147
+2 - Sabao - 48
+3 - Shampoo - 27
+Lucro do supermercado: 224.70

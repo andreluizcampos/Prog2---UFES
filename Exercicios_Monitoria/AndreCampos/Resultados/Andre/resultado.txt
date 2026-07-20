@@ -1,9 +1,0 @@
-Arquivos Esperados Corretos: 11 de 11
-Pastas Compiladas Corretamente: 1 de 1 
-Pastas Linkadas Corretamente: 1 de 1
-Teste main
-  - Resultados corretos: 10 de 10
-  - Valgrinds corretos: 10 de 10
-Nota de Andre para o teste main: 1.00
-Nota de Andre: 0+(1.00)
-Nota de Andre: 1.00

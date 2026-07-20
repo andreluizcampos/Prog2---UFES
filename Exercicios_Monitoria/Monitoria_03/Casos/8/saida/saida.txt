@@ -1,0 +1,6 @@
+Arroz foi cadastrado(a)
+Feijao foi cadastrado(a)
+Arroz teve estoque aumentado
+Feijao teve estoque aumentado
+1 - Arroz - 25
+2 - Feijao - 25

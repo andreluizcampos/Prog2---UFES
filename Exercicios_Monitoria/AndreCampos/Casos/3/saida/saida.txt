@@ -1,8 +1,0 @@
-IMPRIMINDO MIDIAS FAVORITAS
-
-MIDIA 1: MUSICA
-Titulo: White_Ferrari
-Artista: Frank_Ocean
-Album: Blonde
-Genero: R&B
-

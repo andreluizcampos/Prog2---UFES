@@ -1,6 +1,0 @@
-FILME Cidade_de_Deus Fernando_Meirelles Drama 2002 130
-FILME Requiem_para_um_Sonho Darren_Aronofsky Drama 2000 102
-FILME A_Substancia Coralie_Fargeat Terror 2024 140
-FILME Aftersun Charlotte_Wells Drama 2022 101
-FILME O_Sexto_Sentido M._Night_Shyamalan Suspense 1999 107
-IMPRIMIR

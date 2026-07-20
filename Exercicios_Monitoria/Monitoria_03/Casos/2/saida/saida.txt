@@ -1,0 +1,11 @@
+Xuxu foi cadastrado(a)
+Arroz foi cadastrado(a)
+Macarrao foi cadastrado(a)
+Banana foi cadastrado(a)
+Feijao foi cadastrado(a)
+2 - Arroz - 12
+1 - Banana - 50
+9 - Feijao - 14
+8 - Macarrao - 20
+5 - Xuxu - 3
+Lucro do supermercado: 0.00

@@ -1,0 +1,12 @@
+Cafe foi cadastrado(a)
+Acucar foi cadastrado(a)
+Cafe foi comprado(a)
+Cafe foi comprado(a)
+Acucar foi comprado(a)
+Acucar foi comprado(a)
+Acucar foi comprado(a)
+Cafe teve estoque aumentado
+Acucar teve estoque aumentado
+2 - Acucar - 40
+1 - Cafe - 35
+Lucro do supermercado: 49.05

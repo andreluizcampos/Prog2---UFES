@@ -3,8 +3,8 @@ Arquivos
 Valgrind
 	desconto=0.5
 Validações
-	main=2.50
-    contato=2.50
+	#main=2.50
+    #contato=2.50
     lista_contato=2.50
-    vector=2.50
-	completo=2.50
+    #vector=2.50
+	#completo=2.50

@@ -1,0 +1,7 @@
+Sabonete foi cadastrado(a)
+Sabonete foi comprado(a)
+Codigo nao cadastrado no supermercado
+Codigo nao cadastrado no supermercado
+Sabonete teve estoque aumentado
+1 - Sabonete - 19
+Lucro do supermercado: 3.99

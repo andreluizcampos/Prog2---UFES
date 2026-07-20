@@ -1,0 +1,4 @@
+Arroz foi cadastrado(a)
+Arroz foi comprado(a)
+Arroz foi comprado(a)
+Lucro do supermercado: 21.28

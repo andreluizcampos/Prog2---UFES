@@ -1,0 +1,12 @@
+Arroz foi cadastrado(a)
+Arroz foi comprado(a)
+Arroz foi comprado(a)
+Arroz foi comprado(a)
+Arroz foi comprado(a)
+Arroz foi comprado(a)
+Arroz sem estoque
+1 - Arroz - 0
+Lucro do supermercado: 48.75
+Arroz teve estoque aumentado
+Arroz foi comprado(a)
+Lucro do supermercado: 58.50

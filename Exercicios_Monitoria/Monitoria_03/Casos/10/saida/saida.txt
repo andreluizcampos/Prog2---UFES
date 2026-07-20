@@ -1,0 +1,14 @@
+Macarrao foi cadastrado(a)
+Arroz foi cadastrado(a)
+Feijao foi cadastrado(a)
+Feijao foi comprado(a)
+Feijao foi comprado(a)
+Arroz foi comprado(a)
+Macarrao foi comprado(a)
+Macarrao foi comprado(a)
+Feijao teve estoque aumentado
+Macarrao teve estoque aumentado
+2 - Arroz - 19
+1 - Feijao - 23
+3 - Macarrao - 13
+Lucro do supermercado: 40.00

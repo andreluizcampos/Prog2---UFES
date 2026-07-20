@@ -1,0 +1,17 @@
+Iogurte foi cadastrado(a)
+Pao foi cadastrado(a)
+Queijo foi cadastrado(a)
+Manteiga foi cadastrado(a)
+Iogurte foi comprado(a)
+Iogurte foi comprado(a)
+Pao foi comprado(a)
+Pao foi comprado(a)
+Pao foi comprado(a)
+Queijo foi comprado(a)
+Manteiga foi comprado(a)
+Manteiga foi comprado(a)
+Lucro do supermercado: 76.51
+1 - Iogurte - 10
+4 - Manteiga - 7
+2 - Pao - 97
+3 - Queijo - 6

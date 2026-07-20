@@ -1,0 +1,21 @@
+Arquivos Esperados Corretos: 7 de 7
+Pastas Compiladas Corretamente: 4 de 4 
+Pastas Linkadas Corretamente: 4 de 4
+Teste main
+  - Resultados corretos: 5 de 6
+  - Valgrinds corretos: 6 de 6
+Nota de Andre para o teste main: .83
+Teste cpu
+  - Resultados corretos: 5 de 6
+  - Valgrinds corretos: 6 de 6
+Nota de Andre para o teste cpu: 2.49
+Teste instrucao
+  - Resultados corretos: 5 de 6
+  - Valgrinds corretos: 6 de 6
+Nota de Andre para o teste instrucao: 2.49
+Teste usuario
+  - Resultados corretos: 5 de 6
+  - Valgrinds corretos: 6 de 6
+Nota de Andre para o teste usuario: 2.49
+Nota de Andre: 0+(2.49)+(2.49)+(.83)+(2.49)
+Nota de Andre: 8.30

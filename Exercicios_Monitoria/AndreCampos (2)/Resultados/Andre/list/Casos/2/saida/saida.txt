@@ -1,8 +1,0 @@
-IMPRIMINDO MIDIAS FAVORITAS
-
-MIDIA 1: JOGO
-Titulo: The_Last_of_Us_Part_II
-Desenvolvedora: Naughty_Dog
-Genero: Acao_Aventura
-Ano de lancamento: 2020
-Plataforma(s): PS4
